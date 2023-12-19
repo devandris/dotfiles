@@ -1,0 +1,5869 @@
+
+# 2023-09-09 21:09:19.979522
++connect database users
+
+# 2023-09-09 21:09:53.422775
++connect
+
+# 2023-09-09 21:10:04.981124
++use users
+
+# 2023-09-09 21:10:24.109318
++select * from users
+
+# 2023-09-20 15:15:55.543762
++select current_user
+
+# 2023-09-20 20:59:22.067261
++exit
+
+# 2023-09-20 21:43:34.519437
++select * from movies
+
+# 2023-09-20 21:44:23.965596
++\d movies
+
+# 2023-09-20 21:44:59.240376
++\d schema_migrations
+
+# 2023-09-20 21:45:10.878792
++select * from information_schema
+
+# 2023-09-20 21:45:21.294909
++select * from schema_migrations
+
+# 2023-09-20 21:45:45.610518
++exit
+
+# 2023-09-20 23:03:51.936117
++delete from movies
+
+# 2023-09-20 23:03:55.633071
++commit
+
+# 2023-09-20 23:04:11.786651
++select * from movies
+
+# 2023-09-20 23:06:43.545729
++exit
+
+# 2023-09-20 23:23:23.737225
++select * from movies
+
+# 2023-09-21 21:23:44.029904
++select * from moview
+
+# 2023-09-21 21:23:45.735422
++select * from movies
+
+# 2023-09-21 21:53:07.354899
++select * from moview
+
+# 2023-09-21 21:53:09.054440
++select * from movies
+
+# 2023-09-22 23:18:37.214527
++exti
+
+# 2023-09-22 23:18:38.810389
++exit
+
+# 2023-09-27 22:59:03.568426
++select * from test_1
+
+# 2023-09-27 22:59:10.110296
++select * from test_1.theme_definition
+
+# 2023-09-27 22:59:17.511380
++help
+
+# 2023-09-27 22:59:28.056242
++h
+
+# 2023-09-27 22:59:33.891456
++help
+
+# 2023-09-27 22:59:41.906472
++/?
+
+# 2023-09-27 22:59:43.132574
++?
+
+# 2023-09-27 22:59:45.433482
++\?
+
+# 2023-09-27 23:00:32.122815
++\t
+
+# 2023-09-27 23:00:35.198793
++/t
+
+# 2023-09-27 23:00:37.673885
++\t
+
+# 2023-09-27 23:00:41.763788
++\dt
+
+# 2023-09-27 23:00:59.143059
++select * from public.theme_definition
+
+# 2023-09-27 23:01:24.414117
++/#
+
+# 2023-09-27 23:01:26.335007
++\#
+
+# 2023-09-27 23:01:35.986016
++drop table theme_definition
+
+# 2023-09-27 23:01:44.445174
++drop table questions_definition
+
+# 2023-09-27 23:01:58.510244
++drop schema test_1
+
+# 2023-09-27 23:02:17.362303
++\#
+
+# 2023-09-27 23:02:31.977462
++select * from test_1.theme_definition
+
+# 2023-09-27 23:05:25.189889
++\#
+
+# 2023-09-27 23:18:37.505743
++select * from test_1.theme_definition
+
+# 2023-09-27 23:18:53.669535
++\dt
+
+# 2023-09-27 23:18:57.376989
++exit
+
+# 2023-09-27 23:19:00.813134
++\dt
+
+# 2023-09-27 23:19:27.833044
++exit
+
+# 2023-09-27 23:19:33.980203
++\dt
+
+# 2023-09-27 23:35:55.235083
++select * from test_1.theme_definition
+
+# 2023-09-27 23:54:39.813249
++\?
+
+# 2023-09-27 23:56:31.909099
++select * from test_1.theme_definition
+
+# 2023-09-27 23:58:01.290657
++\e
+
+# 2023-09-27 23:58:06.840955
++select * from test_1.theme_definition
+
+# 2023-09-27 23:58:11.206787
++\e
+
+# 2023-09-27 23:58:30.737972
++\e select * from test_1.theme_definition
+
+# 2023-09-27 23:58:38.216073
++\?
+
+# 2023-09-27 23:59:02.559189
++\#
+
+# 2023-09-28 00:00:23.458824
++\copy test_1.theme_definition theme_definition.export
+
+# 2023-09-28 00:02:13.300033
++\copy test_1.theme_definition to theme_definition.export
+
+# 2023-09-28 00:02:30.539941
++\copy test_1.theme_definition to 'theme_definition.export'
+
+# 2023-09-28 00:03:24.401436
++\o out.data select * from test_1.theme_definition
+
+# 2023-09-28 00:03:57.174455
++quit
+
+# 2023-09-28 00:04:52.242447
++\o 'out.data' select * from test_1.theme_definition
+
+# 2023-09-28 00:05:45.795612
++select * from test_1.theme_definition \o 'out.data'
+
+# 2023-09-28 00:06:11.821411
++\?
+
+# 2023-09-28 00:06:17.637812
++exit
+
+# 2023-09-28 00:06:24.072063
++\?
+
+# 2023-09-28 00:06:51.175911
++select * from test_1.theme_definition
+
+# 2023-09-28 00:06:58.990112
++\o out.data
+
+# 2023-09-28 00:07:22.223339
++select * from test_1.theme_definition
+
+# 2023-09-28 00:07:26.238258
++quit
+
+# 2023-09-28 00:07:28.972687
++select * from test_1.theme_definition
+
+# 2023-09-28 00:07:35.494876
++\?
+
+# 2023-09-28 00:07:58.273656
++\pager nvim
+
+# 2023-09-28 00:08:01.152567
++select * from test_1.theme_definition
+
+# 2023-09-28 00:09:33.458228
++\pager less
+
+# 2023-09-28 00:09:39.057393
++\x
+
+# 2023-09-28 00:09:42.618436
++select * from test_1.theme_definition
+
+# 2023-09-28 14:49:13.192381
++select * from test_1.q
+
+# 2023-09-28 14:49:17.593278
++select * from test_1.questions_definition
+
+# 2023-09-28 15:29:07.815227
++exit
+
+# 2023-09-28 15:43:30.374165
++select id, name, line_in_excel from test_1.theme_definition where line_in_excel in (461, 462, 463, 464)
+
+# 2023-09-28 15:45:06.560023
++select id, name, line_in_excel from test_1.questions_definition where theme_definition_id in (select id from test_1.theme_definition where line_in_excel in (461, 462, 463, 464))
+
+# 2023-09-28 15:46:51.331453
++select id, name, line_in_excel from test_1.questions_definition where theme_definition_id in (select id from test_1.theme_definition where line_in_excel in (461, 462, 463, 464))\e
+
+# 2023-09-28 15:49:23.752450
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q
++test_1.theme_definition t
++where q.theme_definition_id = t.id
++t.id in (460, 461, 462, 463, 464))
+
+# 2023-09-28 15:49:31.446980
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q
++test_1.theme_definition t
++where q.theme_definition_id = t.id
++t.id in (460, 461, 462, 463, 464))\e
+
+# 2023-09-28 15:49:36.003259
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where q.theme_definition_id = t.id
++t.id in (460, 461, 462, 463, 464))
+
+# 2023-09-28 15:49:41.210895
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where q.theme_definition_id = t.id
++t.id in (460, 461, 462, 463, 464))\
+
+# 2023-09-28 15:49:43.930438
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where q.theme_definition_id = t.id
++t.id in (460, 461, 462, 463, 464))\e
+
+# 2023-09-28 15:50:00.245402
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464))
+
+# 2023-09-28 15:50:04.961773
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464))\e
+
+# 2023-09-28 15:50:11.464558
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:50:15.697563
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464))\e
+
+# 2023-09-28 15:50:31.176967
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464))
+
+# 2023-09-28 15:50:34.955707
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:50:38.365695
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)\e
+
+# 2023-09-28 15:51:03.186220
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:51:13.567303
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)\
+
+# 2023-09-28 15:51:16.169285
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)\e
+
+# 2023-09-28 15:51:25.533270
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:51:43.768309
++select * from test_1.questions_definition where theme_definition_id is not null
+
+# 2023-09-28 15:51:48.871405
++select * from test_1.questions_definition where theme_definition_id is null
+
+# 2023-09-28 15:51:52.611521
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:52:03.330940
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.id in (460, 461, 462, 463, 464)\e
+
+# 2023-09-28 15:52:16.559534
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel in (460, 461, 462, 463, 464)
+
+# 2023-09-28 15:52:38.387134
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel in (460, 461, 462, 463, 464)\e
+
+# 2023-09-28 15:52:57.390331
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel in (459, 460, 461, 462, 463, 464)
+
+# 2023-09-28 15:53:39.890478
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel in (459, 460, 461, 462, 463, 464)\e
+
+# 2023-09-28 15:54:33.804246
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel between 452 and 464
+
+# 2023-09-28 16:01:47.814363
++exit
+
+# 2023-09-28 16:01:54.470844
++select 
++t.id, t.name, t.line_in_excel,
++q.id, q.name, q.line_in_excel 
++from 
++test_1.questions_definition q,
++test_1.theme_definition t
++where 1 = 1
++and q.theme_definition_id = t.id
++and t.line_in_excel between 452 and 464
+
+# 2023-09-28 16:19:48.465266
++exit
+
+# 2023-10-02 13:28:34.779394
++select * from test_1.questions_definition
+
+# 2023-10-02 13:29:09.652299
++exit
+
+# 2023-10-02 13:30:16.837975
++select weight from test_1.questions_definition
+
+# 2023-10-02 13:30:30.663931
++exit
+
+# 2023-10-02 15:32:22.238389
++select count(*) from test_1.theme_definition
+
+# 2023-10-02 16:18:19.745494
++exit
+
+# 2023-10-03 11:42:41.353847
++\?
+
+# 2023-10-03 11:42:54.976849
++\dt
+
+# 2023-10-03 11:43:19.312040
++\dn
+
+# 2023-10-03 11:48:02.061203
++\ds
+
+# 2023-10-03 11:48:08.453409
++\ds TEST_1
+
+# 2023-10-03 11:50:27.241301
++\dn
+
+# 2023-10-03 11:50:30.370012
++\ds
+
+# 2023-10-03 11:50:33.219716
++\ds public
+
+# 2023-10-03 11:50:38.409119
++\dt
+
+# 2023-10-03 11:50:41.382901
++\dt public
+
+# 2023-10-03 11:50:44.275076
++\dt test_1
+
+# 2023-10-03 11:50:49.892306
++\?
+
+# 2023-10-03 11:51:02.936410
++\dE
+
+# 2023-10-03 11:51:21.824476
++\dt+
+
+# 2023-10-03 11:51:44.857527
++use finnoscore
+
+# 2023-10-03 11:51:47.893541
++\dt
+
+# 2023-10-03 11:51:54.442671
++\ds
+
+# 2023-10-03 11:51:56.419566
++\dn
+
+# 2023-10-03 13:00:23.281049
++/dt
+
+# 2023-10-03 13:00:26.579936
++\dt
+
+# 2023-10-03 13:00:35.176978
++select * from casbin_rule
+
+# 2023-10-03 13:00:48.724140
++exit
+
+# 2023-10-03 14:38:20.492977
++select * from casbin_rule
+
+# 2023-10-03 23:35:29.202633
++select * from test_1.questions_definition
+
+# 2023-10-03 23:35:40.997509
++select form_type from test_1.questions_definition
+
+# 2023-10-03 23:38:41.921403
++select form_type, description from test_1.questions_definition
+
+# 2023-10-04 12:53:35.496648
++select distinct category from test_1.theme_definition
+
+# 2023-10-04 12:54:06.055081
++select distinct category from test_1.theme_definition order by 1
+
+# 2023-10-04 12:57:28.224302
++dd
+
+# 2023-10-04 12:57:32.993691
++quit
+
+# 2023-10-05 21:20:29.554292
++select * from test_1.form_definition
+
+# 2023-10-05 21:23:37.014154
++exit
+
+# 2023-10-05 21:38:47.847380
++select * from test_1.form_definition
+
+# 2023-10-05 21:39:05.712243
++exit
+
+# 2023-10-05 21:48:56.016795
++select * from test_1.form_definition
+
+# 2023-10-05 21:49:11.111373
++select count(*) from  test_1.form_definition
+
+# 2023-10-05 21:49:17.903390
++exit
+
+# 2023-10-05 21:53:35.063945
++select count(*) from  test_1.form_definition
+
+# 2023-10-05 21:53:42.564775
++select * from  test_1.form_definition
+
+# 2023-10-05 21:56:35.707570
++select * from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id
+
+# 2023-10-05 21:57:28.250024
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id
+
+# 2023-10-05 21:57:51.571063
++\?
+
+# 2023-10-05 22:00:22.662727
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id \x
+
+# 2023-10-05 22:00:29.372921
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id\x
+
+# 2023-10-05 22:00:34.399356
++\x
+
+# 2023-10-05 22:00:36.035388
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id\x
+
+# 2023-10-05 22:00:37.931831
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id
+
+# 2023-10-05 22:02:00.867212
++\?
+
+# 2023-10-05 22:02:22.535261
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_id\e
+
+# 2023-10-05 22:02:49.694013
++/?
+
+# 2023-10-05 22:02:53.521713
++\j/
+
+# 2023-10-05 22:02:55.799557
++\?
+
+# 2023-10-05 22:03:39.568520
++select dd.name as theme_name, qd.name as question, fd.* from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id inner join test_1.form_definition fd on fd.id = qd.form_definition_i
+
+# 2023-10-05 22:05:46.788118
++select dd.name as theme_name
++, qd.name as question
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 22:10:05.704807
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 22:16:28.629232
++exit
+
+# 2023-10-05 22:16:42.765713
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 22:16:49.058422
++\x
+
+# 2023-10-05 22:16:51.119448
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 22:25:46.031083
++select * from test_1.form_definition
+
+# 2023-10-05 22:25:50.725022
++\x
+
+# 2023-10-05 22:25:52.231723
++select * from test_1.form_definition
+
+# 2023-10-05 22:29:54.800454
++\x
+
+# 2023-10-05 22:29:57.511410
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 22:43:31.360876
++select * from test_1.form_definition where line_in_excel = 36
+
+# 2023-10-05 22:43:49.727860
++select * from test_1.questions_definition where line_in_excel = 36
+
+# 2023-10-05 22:43:57.832784
++\
+
+# 2023-10-05 22:44:00.744949
++\x
+
+# 2023-10-05 22:44:02.258187
++select * from test_1.questions_definition where line_in_excel = 36
+
+# 2023-10-05 22:51:48.690163
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:25:21.512489
++\T ascii
+
+# 2023-10-05 23:25:24.109564
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:25:29.481345
++\x
+
+# 2023-10-05 23:25:31.390922
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:25:42.398548
++\?
+
+# 2023-10-05 23:26:04.522518
++\T fancy_grid
+
+# 2023-10-05 23:26:06.282419
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:26:15.109608
++\?
+
+# 2023-10-05 23:27:05.538603
++\T plain
+
+# 2023-10-05 23:27:07.369729
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:27:23.640917
++\T pipe
+
+# 2023-10-05 23:27:24.713607
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:27:38.351641
++\x auto
+
+# 2023-10-05 23:27:41.500860
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:28:01.318325
++\T github
+
+# 2023-10-05 23:28:02.682993
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:28:06.288790
++\x
+
+# 2023-10-05 23:28:07.872877
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:28:34.422288
++\T minimal
+
+# 2023-10-05 23:28:36.667186
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:28:53.075212
++\T psql_unicode
+
+# 2023-10-05 23:28:54.411952
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:29:14.690035
++\T html
+
+# 2023-10-05 23:29:16.117279
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:29:50.589559
++:exit
+
+# 2023-10-05 23:29:53.051113
++exit
+
+# 2023-10-05 23:36:11.116290
++select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:37:13.006557
++clear
++;
+
+# 2023-10-05 23:40:55.157527
++select * from test_1.theme_definition
+
+# 2023-10-05 23:42:28.354011
++select t.name, t.rating_policy from test_1.theme_definition t
+
+# 2023-10-05 23:42:41.338659
++select t.name, t.rating_policy from test_1.theme_definition t;
+
+# 2023-10-05 23:42:51.088131
++\?
+
+# 2023-10-05 23:43:34.762830
++select t.name, t.rating_policy from test_1.theme_definition t \ns
++themes;
+
+# 2023-10-05 23:43:48.460983
++select t.name, t.rating_policy from test_1.theme_definition t;
+
+# 2023-10-05 23:43:54.482499
++\ns themes
+
+# 2023-10-05 23:44:01.195395
++\n
+
+# 2023-10-05 23:44:58.650710
++\ns tqf select dd.name as theme_name
++, qd.name as question
++, qd.line_in_excel
++, fd.id as formId
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id 
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id;
+
+# 2023-10-05 23:45:10.538743
++\n
+
+# 2023-10-05 23:45:21.004772
++\?
+
+# 2023-10-05 23:46:12.303268
++\h
+
+# 2023-10-05 23:46:44.708435
++\?
+
+# 2023-10-05 23:46:57.412469
++\n tqf
+
+# 2023-10-05 23:47:01.367581
++\?
+
+# 2023-10-05 23:48:33.111415
++\T github
+
+# 2023-10-05 23:49:05.366254
++\o out.md \n tgh
+
+# 2023-10-05 23:49:50.011818
++\o out.md
+
+# 2023-10-05 23:50:12.773648
++\?
+
+# 2023-10-05 23:50:22.903634
++\q
+
+# 2023-10-05 23:50:26.727831
++\?
+
+# 2023-10-05 23:50:45.093886
++\o
+
+# 2023-10-05 23:50:50.863809
++\o out.md
+
+# 2023-10-05 23:50:56.707844
++\n tqf
+
+# 2023-10-05 23:51:08.035876
++\o
+
+# 2023-10-05 23:51:09.505806
++\n tqf
+
+# 2023-10-05 23:53:08.074432
++\T github
+
+# 2023-10-05 23:53:11.140656
++\o out.md
+
+# 2023-10-05 23:53:13.701300
++\n tqf
+
+# 2023-10-06 00:08:01.819247
++\o
+
+# 2023-10-06 11:54:51.484287
++\n
+
+# 2023-10-06 11:55:38.795274
++select dd.name as theme_name                                                                               
++, qd.name as question                                                                                      
++, qd.line_in_excel                                                                                         
++, fd.id as formId                                                                                          
++, fd.value_type, fd.min_value, fd.max_value, fd.value_list                                                 
++from test_1.theme_definition dd inner join test_1.questions_definition qd on dd.id = qd.theme_definition_id
++                                inner join test_1.form_definition fd on fd.id = qd.form_definition_id
+
+# 2023-10-06 11:55:58.213879
++select * from test_1.institution_definition;
+
+# 2023-10-06 12:28:16.293597
++exit
+
+# 2023-10-09 13:53:06.029786
++select * from test_1.form_definition
++;
+
+# 2023-10-09 14:32:30.704239
++select * from test_1.theme_definition
++;
+
+# 2023-10-09 20:42:43.742502
++exit
+
+# 2023-10-09 20:43:39.304422
++select * from test_1.theme_definition where line_in_excel between 2 and 17
++;
+
+# 2023-10-09 20:44:46.171559
++select * from test_1.questions_definition order by line_in_excel
++;
+
+# 2023-10-09 20:45:22.615484
++select * from test_1.form_definition where id = 3
++;
+
+# 2023-10-09 20:45:27.847165
++exit
+
+# 2023-10-10 22:06:19.195651
++select * from test_1.questions_definition where form_definition_id is null;
+
+# 2023-10-10 22:06:24.373330
++select * from test_1.questions_definition where form_definition_id = 1;
+
+# 2023-10-10 22:06:32.770455
++select * from test_1.questions_definition where form_definition_id = -1
++;
+
+# 2023-10-10 22:06:42.812988
++select * from test_1.questions_definition where theme_definition_id is null;
+
+# 2023-10-10 22:06:51.464559
++select * from test_1.questions_definition where id = 2;
+
+# 2023-10-10 22:07:02.476570
++select * from test_1.questions_definition where form_definition_id = 0;
+
+# 2023-10-10 22:07:57.410452
++eixt
++;
+
+# 2023-10-10 22:07:58.615348
++exit
+
+# 2023-10-10 22:14:31.676229
++select * from test_1.questions_definition where form_definition_id = 0;
+
+# 2023-10-10 22:14:37.008686
++exit
+
+# 2023-10-10 22:21:59.382913
++select * from test_1.questions_definition where form_definition_id = 0;
+
+# 2023-10-10 22:22:12.279587
++select * from test_1.questions_definition where version > 1;
+
+# 2023-10-10 22:23:08.421342
++select ` from test_1.theme_definition where id in (1, 2, 3);
+
+# 2023-10-10 22:23:23.344867
++select * from test_1.theme_definition where id in (1, 2, 3);
+
+# 2023-10-10 22:23:44.943817
++exit
+
+# 2023-10-10 22:24:42.448245
++select * from test_1.questions_definition where version > 1;
+
+# 2023-10-10 22:25:13.763705
++select * from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:25:18.262828
++select * from test_1.theme_definition where product_guard > 0;
+
+# 2023-10-10 22:25:57.520788
++select * from test_1.theme_definition where product_guard = -1;
+
+# 2023-10-10 22:26:07.856150
++select * from test_1.theme_definition where product_guard is null;
+
+# 2023-10-10 22:30:51.907596
++exit
+
+# 2023-10-10 22:30:59.653076
++select * from test_1.theme_definition where product_guard is null;
+
+# 2023-10-10 22:31:15.369148
++\dx
+
+# 2023-10-10 22:31:19.861032
++select * from test_1.theme_definition where product_guard is null;
+
+# 2023-10-10 22:32:17.417866
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:32:29.624372
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard != -1;
+
+# 2023-10-10 22:32:34.364490
++select * from test_1.theme_definition where product_guard is null;
+
+# 2023-10-10 22:32:41.106384
++exit
+
+# 2023-10-10 22:33:47.912358
++select * from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:34:35.461277
++exit
+
+# 2023-10-10 22:34:57.313151
++select * from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:36:27.349903
++exit
+
+# 2023-10-10 22:36:32.575798
++select * from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:36:39.093000
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard != -1;
+
+# 2023-10-10 22:36:55.984818
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard is not null;
+
+# 2023-10-10 22:37:04.012031
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard != -1;
+
+# 2023-10-10 22:40:28.416646
++exit
+
+# 2023-10-10 22:40:39.559188
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard != -1;
+
+# 2023-10-10 22:40:56.692315
++select * from test_1.questions_definition where version > 1;
+
+# 2023-10-10 22:41:47.735175
++exit
+
+# 2023-10-10 22:41:56.015532
++select * from test_1.questions_definition where version > 1;
+
+# 2023-10-10 22:42:24.651303
++select id, name, line_in_excel, product_guard from test_1.theme_definition where product_guard != -1;
+
+# 2023-10-10 22:51:04.304059
++exit
+
+# 2023-10-11 13:15:24.294487
++select * from test_1.form_definition;
+
+# 2023-10-11 13:15:26.045174
++exit
+
+# 2023-10-11 13:50:38.178807
++select * from test_1.form_definition
++;
+
+# 2023-10-11 13:50:52.959356
++exit
+
+# 2023-10-11 13:51:47.149283
++select * from test_1.form_definition
++;
+
+# 2023-10-11 13:51:49.446720
++exit
+
+# 2023-10-11 15:06:53.444886
++select * from test_1.form_definition
++;
+
+# 2023-10-11 15:07:10.242143
++select * from finnoscore.form_definition;
+
+# 2023-10-11 15:31:11.623649
++exit
+
+# 2023-10-11 23:20:09.491738
++select * from public.schema_migrations;
+
+# 2023-10-11 23:21:10.584962
++exit
+
+# 2023-10-11 23:21:20.338448
++select * from public.schema_migrations;
+
+# 2023-10-11 23:21:56.581336
++delete from public.schema_migrations;
+
+# 2023-10-11 23:26:04.154710
++select * from public.schema_migrations;
+
+# 2023-10-11 23:26:52.207519
++select * from finnoscore.dimension_definition;
+
+# 2023-10-11 23:43:49.402027
++drop table finnoscore.dimension_definition;
+
+# 2023-10-11 23:43:57.915675
++exit
+
+# 2023-10-11 23:51:01.338203
++select * from finnoscore.dimension_definition;
+
+# 2023-10-11 23:51:07.952659
++select * from public.schema_migrations;
+
+# 2023-10-11 23:53:05.834944
++select * from finnoscore.dimension_definition;
+
+# 2023-10-11 23:53:21.697551
++exit
+
+# 2023-10-11 23:53:26.413453
++select * from finnoscore.dimension_definition;
+
+# 2023-10-11 23:53:29.479565
++exit
+
+# 2023-10-12 00:09:01.763685
++select * from finnoscore.dimension_definition;
+
+# 2023-10-12 00:09:13.742568
++\?
+
+# 2023-10-12 00:09:31.022837
++\refresh
+
+# 2023-10-12 00:09:44.925784
++select * from finnoscore.assessment_definition
++;
+
+# 2023-10-12 00:10:50.179157
++CREATE TABLE finnoscore.assessment_definition ( 
++    id bigserial PRIMARY KEY,  
++    created_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    updated_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    name TEXT,
++    description TEXT,
++    year integer
++);
++
+
+# 2023-10-12 00:11:05.476076
++CREATE TABLE finnoscore.assessment_dimension ( 
++    id bigserial PRIMARY KEY,  
++    created_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    updated_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    dimension_definition_id bigint,
++    assessment_definition_id bigint
++);
++
+
+# 2023-10-12 00:11:12.651229
++insert into finnoscore.assessment_definition(name, description, year) values ('Assessment of 2023', 'Assessment of 2023 - The assessment', 2023);
++
+
+# 2023-10-12 00:12:38.849316
++select * from finnoscore.dimension_definition;
+
+# 2023-10-12 00:12:49.714040
++select count(*) from finnoscore.dimension_definition;
+
+# 2023-10-12 00:15:43.786836
++select * from finnoscore.assessment_definition
++;
+
+# 2023-10-12 00:16:09.392187
++select * from finnoscore.assessment_definition;
+
+# 2023-10-12 00:16:13.908093
++\refresh
+
+# 2023-10-12 00:16:58.970614
++select * from finnoscore.assessment_definition;
+
+# 2023-10-12 00:17:06.826478
++select * from finnoscore.assessment_dimension;
+
+# 2023-10-12 00:30:40.290114
++exit
+
+# 2023-10-13 11:06:35.907753
++select id as value from finnoscore.assessment_dimension;
+
+# 2023-10-16 22:50:32.764645
++select * from finnoscore.input;
+
+# 2023-10-16 23:39:02.182575
++select * from finnoscore.questions_definition;
+
+# 2023-10-16 23:46:34.894657
++select * from finnoscore.input;
+
+# 2023-10-17 00:02:09.009258
++exit
+
+# 2023-10-18 10:24:14.180215
++select * from finnoscore.assessment_dimension;
+
+# 2023-10-18 10:24:25.845104
++select count(*) from finnoscore.assessment_dimension;
+
+# 2023-10-18 10:25:15.100193
++exit
+
+# 2023-10-18 10:26:36.502333
++select distinct count(*) from finnoscore.assessment_dimension;
+
+# 2023-10-18 10:26:43.894118
++select distinct count(category) from finnoscore.assessment_dimension;
+
+# 2023-10-18 11:39:19.243162
++exit
+
+# 2023-10-19 10:17:14.794297
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 10:17:23.858480
++select * from finnoscore.questions_definition;
+
+# 2023-10-19 10:17:52.063112
++exit
+
+# 2023-10-19 11:12:32.244675
++select * from public.schema_migrations;
+
+# 2023-10-19 11:13:00.848065
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 11:13:09.821513
++exit
+
+# 2023-10-19 11:13:44.721370
++select * from public.schema_migrations;
+
+# 2023-10-19 11:13:50.832113
++exit
+
+# 2023-10-19 11:15:38.949368
++select * from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:15:58.003696
++exit
+
+# 2023-10-19 11:17:10.587082
++select * from public.schema_migrations;
+
+# 2023-10-19 11:17:49.746261
++exit
+
+# 2023-10-19 11:18:00.389029
++select * from public.schema_migrations;
+
+# 2023-10-19 11:18:03.522890
++exit
+
+# 2023-10-19 11:18:28.025945
++select * from public.schema_migrations;
+
+# 2023-10-19 11:18:30.104569
++exit
+
+# 2023-10-19 11:35:59.339373
++CREATE TABLE finnoscore.dimension_definition ( 
++    id bigserial PRIMARY KEY,  
++    created_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    updated_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    name TEXT
++);
++
+
+# 2023-10-19 11:36:35.081035
++select distinct count(category) from finnoscore.assessment_dimension;
+
+# 2023-10-19 11:37:16.370880
++select distinct category from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:38:08.866522
++insert into finnoscore.dimension_definition select distinct category from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:38:25.760667
++insert into finnoscore.dimension_definition(name) select distinct category from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:38:34.237900
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 11:39:42.303732
++alter table finnoscore.sub_dimension_definition add column dimension_definition_id bigint;
+
+# 2023-10-19 11:40:07.672985
++/?
+
+# 2023-10-19 11:40:10.015175
++\?
+
+# 2023-10-19 11:40:24.226476
++\d finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:41:12.981496
++update finnoscore.sub_dimension_definition set dimension_definition_id = (select id from finnoscore.dimension_definition dd where dd.name = category);
+
+# 2023-10-19 11:41:32.258959
++select distinct category, id from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:43:45.077392
++alter table finnoscore.sub_dimension_definition drop category;
+
+# 2023-10-19 11:43:51.610161
++\d finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:47:14.532336
++exit
+
+# 2023-10-19 11:48:01.987371
++alter table finnoscore.sub_dimension_definition add column category TEXT;
++update finnoscore.sub_dimension_definition set category=(select name from finnoscore.dimension_definition dd where dd.id=dimension_definition_id);
++alter table finnoscore.sub_dimension_definition drop dimension_definition_id;
++drop table if exists finnoscore.dimension_definition;
+
+# 2023-10-19 11:48:27.364359
++select distinct category, id from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:48:54.849185
++select distinct category, dimension_definition_id from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:49:09.435192
++CREATE TABLE finnoscore.dimension_definition ( 
++    id bigserial PRIMARY KEY,  
++    created_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    updated_at timestamp(0) with time zone NOT NULL DEFAULT NOW(),
++    name TEXT
++);
++
++insert into finnoscore.dimension_definition select distinct category from finnoscore.sub_dimension_definition;
++alter table finnoscore.sub_dimension_definition add column dimension_definition_id bigint;
++update finnoscore.sub_dimension_definition set dimension_definition_id = (select id from finnoscore.dimension_definition dd where dd.name = category);
++alter table finnoscore.sub_dimension_definition drop category;
++
++;
+
+# 2023-10-19 11:49:31.689263
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 11:49:42.376660
++insert into finnoscore.dimension_definition select distinct category from finnoscore.sub_dimension_definition;
++
+
+# 2023-10-19 11:49:46.992940
++insert into finnoscore.dimension_definition select distinct category from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:50:19.851811
++insert into finnoscore.dimension_definition(name) select distinct category from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:50:31.717421
++alter table finnoscore.sub_dimension_definition add column dimension_definition_id bigint;
++update finnoscore.sub_dimension_definition set dimension_definition_id = (select id from finnoscore.dimension_definition dd where dd.name = category);
++alter table finnoscore.sub_dimension_definition drop category;
++
++;
+
+# 2023-10-19 11:50:40.923300
++select distinct category, dimension_definition_id from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:50:50.526137
++select distinct dimension_definition_id from finnoscore.sub_dimension_definition;
+
+# 2023-10-19 11:51:03.192547
++exit
+
+# 2023-10-19 16:51:17.733671
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 16:51:36.017930
++select * from public.schema_migrations;
+
+# 2023-10-19 16:51:39.933309
++exit
+
+# 2023-10-19 16:51:50.367085
++select * from public.schema_migrations;
+
+# 2023-10-19 16:51:54.589633
++select * from finnoscore.dimension_definition;
+
+# 2023-10-19 16:52:17.944865
++exit
+
+# 2023-10-19 20:02:13.138582
++select * from finnoscore.sub_dimension_definition where dimension_definition_id = 1;
+
+# 2023-10-19 20:02:24.077758
++select * from finnoscore.sub_dimension_definition where dimension_definition_id = 2;
+
+# 2023-10-19 20:06:56.911598
++\d 
+
+# 2023-10-19 20:07:02.941743
++\d finnoscore.sub_dimension_definition;
+
+# 2023-10-19 20:26:07.780532
++select * from finnoscore.sub_dimension_definition where dimension_definition_id = 2;
+
+# 2023-10-19 20:28:09.578884
++select
++,sd.id as sd_id
++,sd.name as sd_name
++,sd.rating_policy as sd_rating_policy
++from finnoscore.sub_dimension_definition sd where dimension_definition_id = 2;
+
+# 2023-10-19 20:28:18.995838
++select
++sd.id as sd_id
++,sd.name as sd_name
++,sd.rating_policy as sd_rating_policy
++from finnoscore.sub_dimension_definition sd where dimension_definition_id = 2;
+
+# 2023-10-19 20:28:28.778293
++select * from finnoscore.questions_definition;
+
+# 2023-10-19 20:28:52.877655
++\d finnoscore.questions_definition;
+
+# 2023-10-19 20:30:00.146357
++select
++sd.id as sd_id
++,sd.name as sd_name
++,sd.rating_policy as sd_rating_policy
++
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++where dimension_definition_id = 2;
+
+# 2023-10-19 20:30:16.086557
++select
++sd.id as sd_id
++,sd.name as sd_name
++,sd.rating_policy as sd_rating_policy
++
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:30:45.681741
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:31:43.065226
++\d finnoscore.questions_definition;
+
+# 2023-10-19 20:32:32.492254
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.description
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:32:57.720962
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:34:28.238014
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:34:38.668492
++\d finnoscore.form_definition;
+
+# 2023-10-19 20:36:26.750852
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++,qd.value_type as qd_value_type
++,qd.value_list as qd_value_list
++,qd.min_value as qd_min_value
++,qd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:37:01.655937
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++fd.value_type as qd_value_type
++d.value_list as qd_value_list
++d.min_value as qd_min_value
++d.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;\e
+
+# 2023-10-19 20:37:09.307064
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++fd.value_type as qd_value_type
++fd.value_list as qd_value_list
++fd.min_value as qd_min_value
++fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:37:29.736416
++select
++sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++fd.value_type as qd_value_type
++fd.value_list as qd_value_list
++fd.min_value as qd_min_value
++fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;\e
+
+# 2023-10-19 20:37:52.948350
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 20:38:07.439205
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;\e
+
+# 2023-10-19 20:45:13.259855
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 2;
+
+# 2023-10-19 21:18:43.686331
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.name
++,qd.form_definition_id
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 3;
+
+# 2023-10-19 21:19:46.799476
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.id as qd_id
++,qd.name as qd_name
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 3;
+
+# 2023-10-19 21:20:29.862546
++select
++ sd.id as sd_id
++,sd.name as sd_name
++,qd.id as qd_id
++,qd.name as qd_name
++,fd.value_type as qd_value_type
++,fd.value_list as qd_value_list
++,fd.min_value as qd_min_value
++,fd.max_value as qd_max_value
++from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++where sd.dimension_definition_id = 3
++order by sd.id, qd.id;
+
+# 2023-10-19 21:23:43.360730
++exit
+
+# 2023-10-19 21:44:31.714488
++select * from finnoscore.form_definition;
+
+# 2023-10-19 21:47:56.096331
++\d finnoscore.form_definition;
+
+# 2023-10-19 22:01:43.721185
++exit
+
+# 2023-10-19 22:24:50.589041
++select * from finnoscore.form_definition;
+
+# 2023-10-19 22:25:07.417522
++\d finnoscore.form_definition;
+
+# 2023-10-19 22:25:17.458375
++exit
+
+# 2023-10-19 22:26:09.834566
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = $1
++
+
+# 2023-10-19 22:26:17.737858
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 1;
+
+# 2023-10-19 22:26:46.421593
++exit
+
+# 2023-10-19 22:48:03.298950
++\d finnoscore.form_definition;
+
+# 2023-10-19 22:53:31.374079
++exit
+
+# 2023-10-19 23:07:42.875767
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2;
+
+# 2023-10-19 23:07:59.088631
++\d finnoscore.form_definition;
+
+# 2023-10-19 23:10:24.045473
++select * from finnoscore.form_definition;
+
+# 2023-10-19 23:11:31.072321
++update finnoscore.form_definition set value_list = array_append(ARRAY['alma'], 'korte') where id = 3;
+
+# 2023-10-19 23:11:34.206741
++select * from finnoscore.form_definition;
+
+# 2023-10-19 23:11:43.829153
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2;
+
+# 2023-10-19 23:13:33.701088
++exit
+
+# 2023-10-19 23:29:02.767786
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2;
+
+# 2023-10-19 23:30:05.943335
++update finnoscore.form_definition set value_list = nil where id = 3;
+
+# 2023-10-19 23:30:19.278105
++update finnoscore.form_definition set value_list = null where id = 3;
+
+# 2023-10-19 23:30:26.205623
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,coalesce(fd.value_list, array[]::text[]) as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2;
+
+# 2023-10-19 23:30:30.673714
++exit
+
+# 2023-10-20 12:18:16.240985
++select rating_policy from finnoscore.sub_dimension_definition;
+
+# 2023-10-20 12:18:57.082128
++exit
+
+# 2023-10-20 13:49:08.899746
++select * from finnoscore.form_definition;
+
+# 2023-10-20 13:50:29.345555
++select * from finnoscore.questions_definition where form_definition_id = 8;
+
+# 2023-10-20 13:51:45.569803
++select line_in_excel from finnoscore.questions_definition where form_definition_id = 8;
+
+# 2023-10-20 13:54:00.959663
++select * from finnoscore.questions_definition where form_definition_id = 8;
+
+# 2023-10-20 13:54:07.816865
++select * from finnoscore.form_definition;
+
+# 2023-10-20 14:00:48.176655
++select * from finnoscore.questions_definition where name is null;
+
+# 2023-10-20 14:01:12.856172
++select * from finnoscore.questions_definition where id = 245;
+
+# 2023-10-20 14:01:57.589066
++select line_in_excel from finnoscore.questions_definition where id = 245;
+
+# 2023-10-20 14:04:41.740023
++select line_in_excel from finnoscore.questions_definition where name = '';
+
+# 2023-10-20 14:19:20.512424
++select * from finnoscore.form_definition where value_list is null;
+
+# 2023-10-20 14:19:54.602987
++select * from finnoscore.questions_definition where form_definition_id = 4;
+
+# 2023-10-20 14:20:11.923926
++select line_in_excel from finnoscore.questions_definition where form_definition_id = 4;
+
+# 2023-10-20 14:26:04.365153
++select * from finnoscore.form_definition where value_list is null;
+
+# 2023-10-20 14:26:16.442606
++select * from finnoscore.form_definition where id = 8;
+
+# 2023-10-20 14:26:44.799948
++select * from finnoscore.form_definition where value_list is null;
+
+# 2023-11-02 15:38:09.033926
++\?
+
+# 2023-11-02 15:38:22.304291
++select * from finnoscore.form_definition where value_list is null;
+
+# 2023-11-02 15:38:29.684104
++select * from finnoscore.form_definition where value_list is null;\x
++;
+
+# 2023-11-02 15:38:33.778402
++\x
+
+# 2023-11-02 15:38:37.285184
++select * from finnoscore.form_definition where value_list is null;
+
+# 2023-11-02 15:38:56.831640
++select * from finnoscore.dimension_definition;
+
+# 2023-11-02 15:39:02.751172
++select * from finnoscore.assessment_definition;
+
+# 2023-11-02 15:39:28.748059
++select * from finnoscore.sub_dimension_definition;
+
+# 2023-11-02 15:39:36.018520
++select * from finnoscore.sub_dimension_definition\x;
+
+# 2023-11-02 15:39:39.751493
++\x
+
+# 2023-11-02 15:39:43.353404
++select * from finnoscore.sub_dimension_definition;
+
+# 2023-11-02 15:40:09.643151
++\x
+
+# 2023-11-02 15:40:52.974194
++exit
+
+# 2023-11-02 15:41:25.907887
++\?
+
+# 2023-11-02 15:41:52.717499
++\d finnoscore.form_definition;
+
+# 2023-11-07 16:01:42.782537
++\?
+
+# 2023-11-07 16:02:09.484871
++\d finnoscore.input;
+
+# 2023-11-07 16:22:24.387363
++exit
+
+# 2023-11-07 16:29:20.714951
++select * from finnoscore.input where question_definition_id = 19;
+
+# 2023-11-07 16:29:37.603733
++delete from finnoscore.input;
+
+# 2023-11-07 16:29:50.623881
++select * from finnoscore.input where question_definition_id = 19;
+
+# 2023-11-07 16:37:03.283801
++delete from finnoscore.input;
+
+# 2023-11-07 16:37:18.458867
++select * from finnoscore.input where question_definition_id = 19;
+
+# 2023-11-07 16:41:58.231050
++delete from finnoscore.input;
+
+# 2023-11-07 16:42:02.574486
++select * from finnoscore.input where question_definition_id = 19;
+
+# 2023-11-07 16:51:22.607662
++exit
+
+# 2023-11-09 14:46:06.353485
++\d finnoscore.input;
+
+# 2023-11-09 14:48:17.304331
++exit
+
+# 2023-11-09 14:48:32.767570
++\d finnoscore.input;
+
+# 2023-11-09 14:48:42.272996
++exit
+
+# 2023-11-09 14:49:05.734921
++\d finnoscore.input;
+
+# 2023-11-09 14:49:07.340564
++exit
+
+# 2023-11-09 14:54:53.146365
++\d finnoscore.input;
+
+# 2023-11-09 14:56:58.328217
++select * from finnoscore.assessment_input;
+
+# 2023-11-09 15:01:10.944368
++exit
+
+# 2023-11-09 15:03:47.377033
++select * from finnoscore.input;
+
+# 2023-11-09 15:03:56.998126
++delete from finnoscore.input;
+
+# 2023-11-09 15:03:59.565204
++select * from finnoscore.input;
+
+# 2023-11-09 15:06:35.067220
++exit
+
+# 2023-11-09 15:50:35.163088
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = $1
++     and qd.name <> ''
++;
+
+# 2023-11-09 15:50:59.727227
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = $1
++     and qd.name <> ''\e
+
+# 2023-11-09 15:51:13.174441
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2
++     and qd.name <> '';
+
+# 2023-11-09 15:51:17.610500
++\x
+
+# 2023-11-09 15:51:19.188151
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2
++     and qd.name <> '';
+
+# 2023-11-09 15:51:30.268132
++select * from finnoscore.input;
+
+# 2023-11-09 15:51:52.101076
++select * from finnoscore.questions_definition where id = 20;
+
+# 2023-11-09 15:52:00.191335
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 2
++     and qd.name <> '';\e
+
+# 2023-11-09 15:52:08.859293
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';
+
+# 2023-11-09 15:52:20.134884
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';\e
+
+# 2023-11-09 15:53:52.871463
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id left join finnoscore.input qi
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:54:00.136405
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id left join finnoscore.input qi
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:54:24.950643
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input qi
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:54:45.140644
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id left join finnoscore.input qi
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:56:05.749694
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input q on qd.id = qi.questions_definition_id and task_id = 1
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:56:26.385999
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input q on qd.id = qi.questions_definition_id and task_id = 1
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:56:41.800559
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input q on qd.id = qi.questions_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:57:04.352401
++\d finnoscore.input;
+
+# 2023-11-09 15:57:06.959326
++\x
+
+# 2023-11-09 15:57:07.906342
++\d finnoscore.input;
+
+# 2023-11-09 15:57:17.845446
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input q on qd.id = qi.questions_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:57:59.326071
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input qi on qd.id = qi.questions_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:58:08.851053
++\d finnoscore.input;
+
+# 2023-11-09 15:58:21.484101
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input qi on qd.id = qi.questions_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:58:34.817617
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:59:17.928251
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id 
++     left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 15:59:33.517057
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from (finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id)
++     left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 15:59:37.461314
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from (finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++     left join finnoscore.form_definition fd on fd.id = qd.form_definition_id)
++     left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 16:00:22.449353
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 16:00:24.707376
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qi.task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 16:00:31.289480
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';
+
+# 2023-11-09 16:00:34.116627
++\x
+
+# 2023-11-09 16:00:35.559388
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';
+
+# 2023-11-09 16:01:09.370111
++select * from finnoscore.input;
+
+# 2023-11-09 16:01:23.902337
++select * from finnoscore.questions_definition where id = 20;
+
+# 2023-11-09 16:01:51.857575
++select * from finnoscore.sub_dimension_definition where id = 4
++;
+
+# 2023-11-09 16:02:21.107170
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';
+
+# 2023-11-09 16:02:27.857299
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and qd.name <> '';\e
+
+# 2023-11-09 16:02:37.368382
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 16:02:45.665106
++\x
+
+# 2023-11-09 16:02:46.638471
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 16:02:49.290450
++\x
+
+# 2023-11-09 16:02:54.013609
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 16:03:12.765705
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:03:52.618103
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:04:18.960807
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 4
++     and (task_id = 1 or task_id is null)
++     and qd.id = 20
++     and qd.name <> '';
+
+# 2023-11-09 16:04:37.784924
++select * from finnoscore.input;
+
+# 2023-11-09 16:04:50.770875
++select * from finnoscore.questions_definition where id = 19;
+
+# 2023-11-09 16:05:04.871639
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:05:38.545605
++select * from finnoscore.input;
+
+# 2023-11-09 16:05:47.787936
++select * from finnoscore.questions_definition where id = 19;
+
+# 2023-11-09 16:05:53.038455
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';\e
+
+# 2023-11-09 16:06:09.178146
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:06:19.155869
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and (task_id = 1 )
++     and qd.name <> '';
+
+# 2023-11-09 16:06:38.484909
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     qd.id = 19
++     and qd.name <> ''
+
+# 2023-11-09 16:06:51.358266
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.id = 19
++     and qd.name <> '';
+
+# 2023-11-09 16:07:02.421183
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where 1=1
++     and qd.id = 19
++     and qd.name <> '';
+
+# 2023-11-09 16:07:51.519054
++select * from finnoscore.input;
+
+# 2023-11-09 16:08:18.508746
++delete from finnoscore.input where id in (17, 18, 19);
+
+# 2023-11-09 16:08:21.792408
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where 1=1
++     and qd.id = 19
++     and qd.name <> '';
+
+# 2023-11-09 16:08:36.724766
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.id = 19
++     and qd.name <> '';
+
+# 2023-11-09 16:08:46.416602
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.id = 19
++     and qd.name <> '';\e
+
+# 2023-11-09 16:09:13.712845
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join (finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id)
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.id = 19
++     and qd.name <> '';
+
+# 2023-11-09 16:09:21.514976
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     from finnoscore.sub_dimension_definition sd left join (finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                 left join finnoscore.input qi on qd.id = qi.question_definition_id)
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.id = 19
++     and qd.name <> '';\e
+
+# 2023-11-09 16:10:07.474631
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++    left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';
+
+# 2023-11-09 16:10:26.140614
++\x
+
+# 2023-11-09 16:10:27.626415
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++    left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';
+
+# 2023-11-09 16:10:48.861517
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++    left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';
+
+# 2023-11-09 16:10:56.876024
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++    left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                 left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';\e
+
+# 2023-11-09 16:11:12.836986
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';
+
+# 2023-11-09 16:11:53.042117
++select * from finnoscore.sub_dimension_definition where id = 3
++;
+
+# 2023-11-09 16:11:59.464632
++\x
+
+# 2023-11-09 16:12:00.538971
++select * from finnoscore.sub_dimension_definition where id = 3
++;
+
+# 2023-11-09 16:12:10.229712
++\x
+
+# 2023-11-09 16:12:14.310734
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 3
++     and qd.name <> '';\e
+
+# 2023-11-09 16:12:24.740627
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and qd.name <> '';
+
+# 2023-11-09 16:12:56.334080
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and qd.name <> '';\e
+
+# 2023-11-09 16:13:09.226130
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and task_id = 1
++     and qd.name <> '';
+
+# 2023-11-09 16:13:12.442325
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and task_id = 1
++     and qd.name <> '';\e
+
+# 2023-11-09 16:13:27.131763
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:13:37.050949
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 2 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:13:50.015697
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:14:01.989421
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';\e
+
+# 2023-11-09 16:20:07.304024
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:25:37.539186
++exit
+
+# 2023-11-09 16:52:31.701555
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++                                                left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++                                                left join finnoscore.input qi on qd.id = qi.question_definition_id
++     where sd.dimension_definition_id = 14
++     and (task_id = 1 or task_id is null)
++     and qd.name <> '';
+
+# 2023-11-09 16:59:49.350177
++exit
+
+# 2023-11-09 21:09:14.904545
++\d finnoscore.input;
+
+# 2023-11-09 21:10:08.255015
++select * from finnoscore.input;
+
+# 2023-11-09 21:12:08.687377
++select * from finnoscore.form_definition;
+
+# 2023-11-09 21:20:03.320971
++select * from finnoscore.input;
+
+# 2023-11-09 21:20:20.836191
++select * from finnoscore.questions_definition where id = 20;
+
+# 2023-11-09 21:20:40.443470
++select * from finnoscore.sub_dimension_definition where id = 4;
+
+# 2023-11-09 21:20:53.381395
++select dimension_id from finnoscore.sub_dimension_definition where id = 4;
+
+# 2023-11-09 21:21:08.071444
++select dimension_definition_id from finnoscore.sub_dimension_definition where id = 4;
+
+# 2023-11-09 21:24:38.165900
++select * from finnoscore.form_definition;
+
+# 2023-11-09 21:24:53.307865
++select * from finnoscore.questions_definition where form_definition_id = 3;
+
+# 2023-11-09 21:26:15.971492
++select * from finnoscore.input where question_definition_id = 23;
+
+# 2023-11-09 21:28:22.370607
++select * from finnoscore.form_definition;
+
+# 2023-11-09 21:28:25.497567
++select * from finnoscore.questions_definition where form_definition_id = 3;
+
+# 2023-11-09 21:29:53.623282
++select dimension_definition_id from finnoscore.sub_dimension_definition where id = 5;
+
+# 2023-11-09 21:30:08.571343
++select * from finnoscore.questions_definition where form_definition_id = 3;
+
+# 2023-11-09 21:36:45.789925
++select * from finnoscore.form_definition;
+
+# 2023-11-09 21:37:05.112983
++select * from finnoscore.questions_definition where form_definition_id = 1;
+
+# 2023-11-09 21:37:59.886389
++select * from finnoscore.input where question_definition_id = 20;
+
+# 2023-11-09 21:38:27.054732
++update finnoscore.input set value = 2.333 where question_definition_id = 20;
+
+# 2023-11-09 21:38:31.149784
++select * from finnoscore.input where question_definition_id = 20;
+
+# 2023-11-09 21:42:21.439783
++exit
+
+# 2023-11-10 10:56:59.134352
++select * from finnoscore.input where task_id is not null;
+
+# 2023-11-10 11:07:14.781929
++select * from finnoscore.input
++;
+
+# 2023-11-10 11:12:00.527337
++exit
+
+# 2023-11-10 11:25:56.837753
++select * from finnoscore.input
++;
+
+# 2023-11-10 11:26:01.635402
++\d finnoscore.input;
+
+# 2023-11-10 11:41:19.671907
++select * from finnoscore.input
++;
+
+# 2023-11-10 16:31:41.456569
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where sd.dimension_definition_id = $1
++        and (task_id = $2 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:31:44.698601
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from finnoscore.sub_dimension_definition sd left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where sd.dimension_definition_id = $1
++        and (task_id = $2 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:33:14.723958
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = $1 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:33:20.620287
++\?
+
+# 2023-11-10 16:33:34.013956
++\d finnoscore;
+
+# 2023-11-10 16:33:46.078454
++\dt finnoscore.*
+
+# 2023-11-10 16:33:58.764280
++\d finnoscore.dimension_definition;
+
+# 2023-11-10 16:34:04.700206
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = $1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:34:12.881794
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = $1 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:34:33.135019
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = $1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:34:39.901256
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:34:50.236726
++select
++     sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:35:17.142563
++select
++      sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     ,dd.id as dd_id
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:35:28.626426
++select
++      sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++     ,dd.id as dd_id
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:35:43.603256
++select
++     dd.id as dd_id
++     ,sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:35:46.371817
++select
++     dd.id as dd_id
++     ,sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';
+
+# 2023-11-10 16:36:01.763523
++select
++     dd.id as dd_id
++     ,sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '';\e
+
+# 2023-11-10 16:36:21.409212
++select count(*) from (
++select
++     dd.id as dd_id
++     ,sd.id as sd_id
++     ,sd.name as sd_name
++     ,qd.id as qd_id
++     ,qd.name as qd_name
++     ,fd.value_type as fd_value_type
++     ,fd.value_list as fd_value_list
++     ,fd.min_value as fd_min_value
++     ,fd.max_value as fd_max_value
++     ,sd.rating_policy as sd_rating_policy
++     ,qi.value as qi_value
++    from 
++        finnoscore.dimension_definition dd left join finnoscore.sub_dimension_definition sd on sd.dimension_definition_id = dd.id
++        left join finnoscore.questions_definition qd on qd.dimension_definition_id = sd.id 
++        left join finnoscore.form_definition fd on fd.id = qd.form_definition_id
++        left join finnoscore.input qi on qd.id = qi.question_definition_id
++    where 1 = 1
++        and (task_id = 1 or task_id is null)
++        and qd.name <> '' );
+
+# 2023-11-10 16:48:31.257731
++select * from finnoscore.input;
+
+# 2023-11-13 17:32:23.807277
++\?
+
+# 2023-11-13 17:32:43.068699
++\d public."CaseLog"
+
+# 2023-11-13 17:32:56.903892
++select * from public."CaseLog";
+
+# 2023-11-13 17:33:37.937406
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 17:36:35.653361
++delete from "CaseLog" where id = 16;
+
+# 2023-11-13 17:37:10.821595
++select * from public."Case";
+
+# 2023-11-13 17:37:21.540409
++\x
+
+# 2023-11-13 17:37:22.436013
++select * from public."Case";
+
+# 2023-11-13 17:38:13.450098
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 17:39:20.380115
++exit
+
+# 2023-11-13 17:55:49.541291
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 17:55:59.319491
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 17:56:15.138586
++delete from finnoscore.input where id in (17, 18, 19);
+
+# 2023-11-13 17:56:49.206327
++delete from "CaseLog" where id = 17;
+
+# 2023-11-13 18:07:24.362598
++delete from "CaseLog" where id = 18;
+
+# 2023-11-13 18:07:33.167433
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 18:08:27.936927
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 18:14:25.300255
++delete from "CaseLog" where id = 19;
+
+# 2023-11-13 18:14:28.285470
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 18:15:33.440128
++delete from "CaseLog" where id = 20;
+
+# 2023-11-13 18:15:38.116567
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 18:15:42.531297
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 18:15:50.960465
++delete from "CaseLog" where id = 52;
+
+# 2023-11-13 18:15:53.875389
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 18:18:00.150448
++delete from "CaseLog" where id = 85;
+
+# 2023-11-13 18:18:04.374476
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 23:06:44.559368
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 23:07:51.597715
++delete from "CaseLog" where id = 118;
+
+# 2023-11-13 23:07:55.603481
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 23:13:49.903064
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 23:13:55.876718
++delete from "CaseLog" where id = 119;
+
+# 2023-11-13 23:54:35.523008
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 23:54:40.998244
++select * from public."CaseLog" order by id;
+
+# 2023-11-13 23:54:50.108169
++delete from "CaseLog" where id = 120;
+
+# 2023-11-13 23:56:20.009131
++delete from "CaseLog" where id = 121;
+
+# 2023-11-13 23:56:23.583778
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 23:57:51.558936
++delete from "CaseLog" where id = 122;
+
+# 2023-11-13 23:59:22.127117
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-13 23:59:25.970028
++delete from "CaseLog" where id = 123;
+
+# 2023-11-14 00:03:35.562660
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:03:38.878672
++delete from "CaseLog" where id = 124;
+
+# 2023-11-14 00:10:54.192533
++delete from "CaseLog" where id = 125;
+
+# 2023-11-14 00:10:57.011534
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:14:23.749299
++delete from "CaseLog" where id = 126;
+
+# 2023-11-14 00:14:27.226489
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:18:26.936883
++delete from "CaseLog" where id = 127;
+
+# 2023-11-14 00:19:09.789956
++delete from "CaseLog" where id = 128;
+
+# 2023-11-14 00:19:12.649974
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:26:55.243825
++delete from "CaseLog" where id = 129;
+
+# 2023-11-14 00:26:57.113104
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:44:17.747241
++delete from "CaseLog" where id = 130;
+
+# 2023-11-14 00:44:26.436412
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 00:45:34.149301
++delete from "CaseLog" where id = 131;
+
+# 2023-11-14 00:45:38.557982
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:55:09.398530
++delete from "CaseLog" where id = 132;
+
+# 2023-11-14 00:55:13.567622
++delete from "CaseLog" where id = 133;
+
+# 2023-11-14 00:55:19.036552
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 00:55:24.926640
++delete from "CaseLog" where id = 163;
+
+# 2023-11-14 00:57:44.505604
++delete from "CaseLog" where id = 164;
+
+# 2023-11-14 00:57:49.190509
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 00:57:59.162740
++delete from "CaseLog" where id = 196;
+
+# 2023-11-14 00:58:05.258906
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 00:59:10.385151
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:03:20.014737
++exit
+
+# 2023-11-14 01:06:35.988529
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:06:46.770554
++delete from "CaseLog" where id = 197;
+
+# 2023-11-14 01:06:59.514660
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 01:09:41.879287
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:09:50.274523
++delete from "CaseLog" where id = 198;
+
+# 2023-11-14 01:09:57.011887
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 01:11:47.026072
++exit
+
+# 2023-11-14 01:14:51.061625
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:15:03.351371
++delete from "CaseLog" where id = 231;
+
+# 2023-11-14 01:15:07.635550
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 01:16:27.902933
++delete from "CaseLog" where id = 232;
+
+# 2023-11-14 01:16:30.007311
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 01:36:45.481473
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:36:54.865948
++delete from "CaseLog" where id = 233;
+
+# 2023-11-14 01:48:39.226071
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 01:48:44.672021
++delete from "CaseLog" where id = 234;
+
+# 2023-11-14 01:48:48.446659
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 01:52:27.382980
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 02:26:38.954002
++exit
+
+# 2023-11-14 11:04:38.056721
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 11:04:52.315174
++delete from "CaseLog" where id = 267;
+
+# 2023-11-14 11:04:58.619995
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 11:28:07.243249
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 11:31:12.974744
++delete from "CaseLog" where id = 268
++;
+
+# 2023-11-14 11:31:21.553853
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 11:32:54.051903
++delete from "CaseLog" where id = 269;
+
+# 2023-11-14 11:32:56.430636
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 11:38:43.936313
++delete from "CaseLog" where id = 270;
+
+# 2023-11-14 11:38:46.604765
++update public."Case" set "commissionReport"=null;
+
+# 2023-11-14 11:40:24.689246
++select * from public."CaseLog" order by id;
+
+# 2023-11-14 15:34:24.625445
++select * from finnoscore.questions_definition where form_definition_id=1;
+
+# 2023-11-14 15:34:42.970091
++select * from finnoscore.form_definition;
+
+# 2023-11-14 15:34:48.514018
++select * from finnoscore.questions_definition where form_definition_id=3;
+
+# 2023-11-14 15:35:37.811466
++select * from finnoscore.sub_dimension_definition where id = 5;
+
+# 2023-11-14 16:11:25.654995
++exit
+
+# 2023-11-15 15:29:13.613946
++\d public."AdminLog";
+
+# 2023-11-15 15:32:29.092052
++select * from public."AdminLog";
+
+# 2023-11-15 15:34:15.993733
++exit
+
+# 2023-11-15 23:03:23.342467
++select coalesce((select TRUE from finnoscore.form_definition where value_type='bool'
++), FALSE);
+
+# 2023-11-15 23:03:29.976887
++select coalesce((select TRUE from finnoscore.form_definition where value_type='bol'
++), FALSE);
+
+# 2023-11-15 23:09:17.460963
++exit
+
+# 2023-11-17 17:20:22.013033
++select * from public."Users";
+
+# 2023-11-19 23:37:12.887548
++exit
+
+# 2023-11-19 23:41:58.246136
++select * from public."Users" where id = 2
++;
+
+# 2023-11-20 00:29:03.888001
++exit
+
+# 2023-11-20 11:51:55.723736
++select * from public."Users" where id = 2
++;
+
+# 2023-11-20 15:22:55.959787
++exit
+
+# 2023-11-20 19:48:32.518379
++select * from public."SndDriver";
+
+# 2023-11-20 20:20:50.521550
++select * from public."Users";
+
+# 2023-11-21 11:19:08.008822
++select * from public."SndDriver" where "userId"=5
++;
+
+# 2023-11-21 11:25:55.473102
++select * from public."Users";
+
+# 2023-11-21 13:24:48.091984
++exit
+
+# 2023-11-21 13:32:58.285462
++select * from public."Users";
+
+# 2023-11-21 16:25:53.093352
++select * from information_schema;
+
+# 2023-11-21 16:25:55.896438
++\?
+
+# 2023-11-21 16:26:12.947714
++\dt
+
+# 2023-11-21 16:26:24.900692
++select * from public.schema_migrations;
+
+# 2023-11-21 16:26:45.962826
++drop table public.schema_migrations;
+
+# 2023-11-21 16:26:51.255978
++select * from public.schema_migrations;
+
+# 2023-11-21 16:27:11.451371
++select * from public.Token;
+
+# 2023-11-21 16:27:17.860839
++select * from public."Token";
+
+# 2023-11-21 16:27:53.679413
++select * from public.schema_migrations;
+
+# 2023-11-21 16:28:03.724482
++select * from public."Token";
+
+# 2023-11-22 16:26:55.745656
++select exists(select TRUE from public.\"SndCompany\")
++;
+
+# 2023-11-22 16:27:01.370025
++select exists(select TRUE from public."SndCompany")
++;
+
+# 2023-11-22 16:27:35.535099
++exit
+
+# 2023-11-22 17:18:16.354877
++delete from public.schema_migrations;
+
+# 2023-11-22 17:18:19.476394
++exit
+
+# 2023-11-22 17:18:36.271500
++select * from public."Token";
+
+# 2023-11-22 17:29:39.524769
++select * from public."Users" where id = 5
++;
+
+# 2023-11-22 17:30:18.570155
++exit
+
+# 2023-11-23 10:37:16.732927
++select * from public."Roles";
+
+# 2023-11-23 13:33:15.049475
++exit
+
+# 2023-11-23 13:40:50.930494
++select * from public."Roles";
+
+# 2023-11-23 13:46:48.029671
++exit
+
+# 2023-11-23 13:49:09.262725
++\d public."Roles";
+
+# 2023-11-23 13:58:27.421056
++select * from public."Roles";
+
+# 2023-11-23 14:42:04.973973
++select * from public."Token";
+
+# 2023-11-23 14:43:38.695902
++exit
+
+# 2023-11-23 14:43:57.676402
++select * from public."Token";
+
+# 2023-11-23 15:03:35.815126
++exit
+
+# 2023-11-23 16:35:55.749454
++select * from public."SndCompany";
+
+# 2023-11-23 16:36:06.253011
++\x
+
+# 2023-11-23 16:36:07.503291
++select * from public."SndCompany";
+
+# 2023-11-23 17:23:27.887804
++exit
+
+# 2023-11-23 17:23:45.995613
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 17:28:39.238068
++\d public."SndCompany";
+
+# 2023-11-23 17:37:25.627350
++\d public."SndDriver";
+
+# 2023-11-23 17:37:36.992060
++\d public."UserRoles";
+
+# 2023-11-23 17:38:50.894530
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 17:38:55.932476
++select * from public."SndCompany";
+
+# 2023-11-23 17:38:58.961980
++\x
+
+# 2023-11-23 17:38:59.785779
++select * from public."SndCompany";
+
+# 2023-11-23 17:47:59.897797
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 21:29:10.499298
++\d public."Users";
+
+# 2023-11-23 21:30:51.706220
++select * from public."UserRoles" where id = 5
++;
+
+# 2023-11-23 21:31:03.016497
++select * from public."UserRoles" where "id" = 5
++;
+
+# 2023-11-23 21:31:12.318213
++select * from public."UserRoles";
+
+# 2023-11-23 21:31:23.873967
++select * from public."UserRoles" where "roleId" = 5
++;
+
+# 2023-11-23 21:31:27.971542
++select * from public."UserRoles" where "roleId" = 4;
+
+# 2023-11-23 21:36:50.380267
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 21:37:22.279503
++delete from public."SndCompany" where "id" in (select "id" from public."SndCompany" sc) except (select "id" from public."SndCompanyTracking" sct where "runid" = :runid) return "id";
+
+# 2023-11-23 21:38:05.293423
++delete from public."SndCompany" where "id" in (select "id" from public."SndCompany" sc) except (select "id" from public."SndCompanyTracking" sct where "runid" = :runid) return "id";\e
+
+# 2023-11-23 21:38:23.085687
++delete from public."SndCompany" where "id" in (select "id" from public."SndCompany" sc except select "id" from public."SndCompanyTracking" sct where "runid" = :runid) return "id";
+
+# 2023-11-23 21:38:36.023613
++delete from public."SndCompany" where "id" in (select "id" from public."SndCompany" sc except select "id" from public."SndCompanyTracking" sct where "runid" = 'asdf') return "id";
+
+# 2023-11-23 21:38:47.895069
++delete from public."SndCompany" where "id" in (select "id" from public."SndCompany" sc except select "id" from public."SndCompanyTracking" sct where "runid" = 'asdf');
+
+# 2023-11-23 21:57:54.723039
++\d public."Users";
+
+# 2023-11-23 22:03:05.978954
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 22:03:19.884846
++select * from public."SndCompany";
+
+# 2023-11-23 22:03:26.700395
++\x
+
+# 2023-11-23 22:03:27.575526
++select * from public."SndCompany";
+
+# 2023-11-23 22:03:44.113489
++select * from public."Users";
+
+# 2023-11-23 22:03:47.487341
++\x
+
+# 2023-11-23 22:03:48.573507
++select * from public."Users";
+
+# 2023-11-23 22:04:17.573023
++delete from public."Users" where "id"=14;
+
+# 2023-11-23 22:04:28.615720
++select * from public."UserRoles";
+
+# 2023-11-23 22:04:46.286097
++select * from public."Users" where id=14;
+
+# 2023-11-23 22:04:58.198779
++select * from public."Users" where id=13;
+
+# 2023-11-23 22:05:10.338127
++select * from public."UserRoles" where "roleId" = 4;
+
+# 2023-11-23 22:05:14.050483
++select * from public."UserRoles";
+
+# 2023-11-23 22:05:47.704343
++select * from public."Users";
+
+# 2023-11-23 22:06:00.784439
++delete from public."Users" where "id"=17;
+
+# 2023-11-23 22:11:50.688061
++select * from public."Users";
+
+# 2023-11-23 22:11:55.148515
++delete from public."Users" where "id"=18;
+
+# 2023-11-23 22:14:36.930589
++select * from public."Users";
+
+# 2023-11-23 22:14:40.801415
++delete from public."Users" where "id"=20;
+
+# 2023-11-23 22:15:06.414075
++select * from public."Users";
+
+# 2023-11-23 22:15:10.897892
++delete from public."Users" where "id"=22;
+
+# 2023-11-23 22:25:54.546468
++select * from public."Users";
+
+# 2023-11-23 22:26:00.612421
++delete from public."Users" where "id"=23;
+
+# 2023-11-23 22:26:09.937584
++select * from public."SndCompany";
+
+# 2023-11-23 22:35:39.058842
++select * from public."Users";
+
+# 2023-11-23 22:35:42.931489
++delete from public."Users" where "id"=25;
+
+# 2023-11-23 22:37:28.409645
++\d public."SndCompany";
+
+# 2023-11-23 22:40:13.172125
++select * from public."SndDriver";
+
+# 2023-11-23 22:40:23.878843
++select * from public."SndCompany";
+
+# 2023-11-23 22:40:27.179289
++\x
+
+# 2023-11-23 22:40:28.313382
++select * from public."SndCompany";
+
+# 2023-11-23 22:41:01.534570
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 22:41:56.175391
++select * from public."SndCompany";
+
+# 2023-11-23 22:42:01.576984
++select * from public."SndDriver";
+
+# 2023-11-23 22:42:12.663783
++select * from public."Users";
+
+# 2023-11-23 22:42:14.996752
++\x
+
+# 2023-11-23 22:42:16.081874
++select * from public."Users";
+
+# 2023-11-23 22:42:28.332198
++delete from public."Users" where "id"=26;
+
+# 2023-11-23 22:45:59.957268
++select * from public."Users";
+
+# 2023-11-23 22:46:02.874659
++delete from public."Users" where "id"=27;
+
+# 2023-11-23 22:48:54.959532
++select * from public."Users";
+
+# 2023-11-23 22:48:57.498682
++delete from public."Users" where "id"=28;
+
+# 2023-11-23 22:50:30.131464
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 22:54:08.356615
++select * from public."Users";
+
+# 2023-11-23 22:54:13.115519
++delete from public."Users" where "id"=30;
+
+# 2023-11-23 22:54:18.086594
++select * from public."Users";
+
+# 2023-11-23 22:56:02.412462
++delete from public."Users" where "id"=32;
+
+# 2023-11-23 23:06:54.475193
++select * from public."Users";
+
+# 2023-11-23 23:06:59.923207
++delete from public."Users" where "id"=33;
+
+# 2023-11-23 23:07:27.833973
++\d public."SndDriver";
+
+# 2023-11-23 23:08:36.793952
++select * from public."Users";
+
+# 2023-11-23 23:08:43.019262
++delete from public."Users" where "id"=34;
+
+# 2023-11-23 23:09:04.369570
++select * from public."SndCompany";
+
+# 2023-11-23 23:09:23.485472
++delete from public."SndCompany" where "id" = 392;
+
+# 2023-11-23 23:09:27.280372
++delete from public."Users" where "id"=34;
+
+# 2023-11-23 23:10:43.116800
++select * from public."SndCompany";
+
+# 2023-11-23 23:10:49.785876
++delete from public."SndCompany" where "id" = 393;
+
+# 2023-11-23 23:10:54.712925
++delete from public."Users" where "id"=35;
+
+# 2023-11-23 23:20:51.188171
++select * from public."SndCompany";
+
+# 2023-11-23 23:21:12.436069
++delete from public."SndCompany" where "id" = 394;
+
+# 2023-11-23 23:21:16.656965
++delete from public."Users" where "id"=36;
+
+# 2023-11-23 23:21:49.738522
++select * from public."SndCompany";
+
+# 2023-11-23 23:25:08.282314
++delete from public."SndCompany" where "id" = 395;
+
+# 2023-11-23 23:25:12.740225
++delete from public."Users" where "id"=37;
+
+# 2023-11-23 23:29:21.294604
++delete from public."Users" where "id"=38;
+
+# 2023-11-23 23:29:24.974747
++delete from public."SndCompany" where "id" = 396;
+
+# 2023-11-23 23:29:30.241375
++delete from public."Users" where "id"=38;
+
+# 2023-11-23 23:34:32.417825
++select * from public."SndCompany";
+
+# 2023-11-23 23:34:41.326830
++delete from public."SndCompany" where "id" = 397;
+
+# 2023-11-23 23:34:45.594896
++delete from public."Users" where "id"=39;
+
+# 2023-11-23 23:36:07.661435
++select * from public."SndCompany";
+
+# 2023-11-23 23:36:33.849833
++select * from public."UserRoles";
+
+# 2023-11-23 23:37:09.274679
++\d public."Roles";
+
+# 2023-11-23 23:40:59.139531
++select * from public."SndCompany";
+
+# 2023-11-23 23:41:10.647735
++delete from public."SndCompany" where "id" = 398;
+
+# 2023-11-23 23:41:18.213926
++delete from public."Users" where "id"=40;
+
+# 2023-11-23 23:41:37.048227
++select * from public."SndDriver";
+
+# 2023-11-23 23:41:52.773213
++delete from "SndDriver" where id = 391;
+
+# 2023-11-23 23:41:57.366860
++delete from public."SndCompany" where "id" = 398;
+
+# 2023-11-23 23:42:00.313097
++delete from public."Users" where "id"=40;
+
+# 2023-11-23 23:42:10.741100
++select * from public."SndCompanyTracking";
+
+# 2023-11-23 23:42:47.870388
++delete from "SndDriver" where id = 392;
+
+# 2023-11-23 23:42:59.531570
++delete from public."SndCompany" where "id" = 399;
+
+# 2023-11-23 23:43:09.606211
++delete from public."Users" where "id"=41;
+
+# 2023-11-23 23:45:44.343459
++delete from "SndDriver" where id = 393;
+
+# 2023-11-23 23:45:51.098827
++delete from public."SndCompany" where "id" = 400;
+
+# 2023-11-23 23:45:55.461632
++delete from public."Users" where "id"=42;
+
+# 2023-11-23 23:46:41.766804
++delete from "SndDriver" where id = 394;
+
+# 2023-11-23 23:46:47.555619
++delete from public."SndCompany" where "id" = 401;
+
+# 2023-11-23 23:46:52.090617
++delete from public."Users" where "id"=43;
+
+# 2023-11-23 23:47:57.006456
++\d "Token";
+
+# 2023-11-23 23:50:15.699144
++delete from "SndDriver" where id = 395;
+
+# 2023-11-23 23:50:20.555050
++delete from public."SndCompany" where "id" = 402;
+
+# 2023-11-23 23:50:25.359598
++delete from public."Users" where "id"=44;
+
+# 2023-11-24 00:00:24.702195
++select * from public."UserRoles";
+
+# 2023-11-24 00:00:48.239134
++select * from "Token";
+
+# 2023-11-24 00:02:37.839396
++delete from public."Token" where id = 2;
+
+# 2023-11-24 00:02:58.031346
++delete from "UserRoles" where userId=45;
+
+# 2023-11-24 00:03:10.380545
++delete from "UserRoles" where "userId"=45;
+
+# 2023-11-24 00:03:28.585233
++delete from public."SndCompany" where "id" = 403;
+
+# 2023-11-24 00:03:52.702750
++delete from "SndDriver" where id = 396;
+
+# 2023-11-24 00:04:02.411280
++delete from public."SndCompany" where "id" = 403;
+
+# 2023-11-24 00:04:27.995258
++delete from public."Users" where "id"=45;
+
+# 2023-11-24 00:05:22.691462
++select * from "Token";
+
+# 2023-11-24 00:05:34.537637
++select * from "SndCompany";
+
+# 2023-11-24 00:06:00.673611
++select * from "UserRoles";
+
+# 2023-11-24 00:06:26.562481
++select * from public."SndDriver";
+
+# 2023-11-24 00:06:42.123806
++select * from public."Users";
+
+# 2023-11-24 00:06:54.747214
++select * from public."SndCompanyTracking";
+
+# 2023-11-24 00:38:00.434558
++exit
+
+# 2023-11-24 00:42:48.199214
++select * from "Token";
+
+# 2023-11-24 00:43:05.015442
++delete from public."Users" where "id"=46;
+
+# 2023-11-24 00:43:21.382510
++delete from public."UserRoles" where "userId" = 46;
+
+# 2023-11-24 00:43:42.055557
++delete from public."SndDriver" where "userId" = 46;
+
+# 2023-11-24 00:43:56.148915
++delete from public."SndCompany" where "userId" = 46;
+
+# 2023-11-24 00:44:24.536246
++delete from public."Users" where "id" = 46;
+
+# 2023-11-24 00:47:25.781472
++select * from "User";
+
+# 2023-11-24 00:47:34.350486
++select * from "Users";
+
+# 2023-11-24 00:48:17.958375
++delete from public."UserRoles" where "userId" = 47;
+
+# 2023-11-24 00:48:24.611569
++delete from public."SndDriver" where "userId" = 47;
+
+# 2023-11-24 00:48:32.330295
++delete from public."SndCompany" where "userId" = 47;
+
+# 2023-11-24 00:48:39.739842
++delete from public."Users" where "id" = 47;
+
+# 2023-11-24 00:49:26.754943
++select * from "Users";
+
+# 2023-11-24 00:55:31.894173
++exit
+
+# 2023-11-24 11:13:18.598281
++select * from "SndCompanyTracking";
+
+# 2023-11-24 11:17:35.981815
++select * from "SndCompany";
+
+# 2023-11-24 11:17:45.680482
++\x
+
+# 2023-11-24 11:17:46.693074
++select * from "SndCompany";
+
+# 2023-11-24 11:18:18.027242
++select * from "Users";
+
+# 2023-11-24 11:20:08.909503
++select * from "Users" where username like '%5%';
+
+# 2023-11-24 11:20:47.157973
++select * from "UserRoles" where "userId" = 52;
+
+# 2023-11-24 11:21:03.725856
++select * from "SndCompanyTracking" where "userId" = 52;
+
+# 2023-11-24 11:21:24.149077
++select * from "UserRoles" where user_id = 52;
+
+# 2023-11-24 11:21:47.948257
++select * from "SndCompanyTracking" where user_id = 52;
+
+# 2023-11-24 11:21:54.847285
++select * from "SndCompanyTracking" where userId = 52;
+
+# 2023-11-24 11:22:06.772811
++\d "SndCompanyTracking";
+
+# 2023-11-24 11:22:26.650339
++select * from "SndCompany" where userId = 52;
+
+# 2023-11-24 11:22:34.299359
++select * from "SndCompany" where "userId" = 52;
+
+# 2023-11-24 11:22:50.567796
++select * from "SndDriver" where "userId" = 52;
+
+# 2023-11-24 11:24:23.995852
++select * from "Users" where username like '%6%';
+
+# 2023-11-24 11:24:34.151019
++select * from "SndDriver" where "userId" = 53;
+
+# 2023-11-24 11:30:57.695664
++select * from "Users" where username like '%7%';
+
+# 2023-11-24 12:01:10.454037
++select * from "Users" where username like '%9%';
+
+# 2023-11-24 12:01:25.364829
++select * from "SndCompanyTracking"
++;
+
+# 2023-11-24 12:12:35.694398
++\x
+
+# 2023-11-24 12:12:37.320560
++select * from "SndCompanyTracking"
++;
+
+# 2023-11-24 12:30:58.441045
++select * from "SndCompany" where "id" = 403
++;
+
+# 2023-11-24 12:31:06.670722
++select * from "SndCompany"
++;
+
+# 2023-11-24 13:31:30.486176
++\d "AdminLog";
+
+# 2023-11-24 13:31:44.016651
++select * from "AdminLog";
+
+# 2023-11-24 13:32:48.299094
++select * from "Users";
+
+# 2023-11-24 13:35:08.400602
++select * from "AdminLog";
+
+# 2023-11-24 13:35:53.896823
++\x
+
+# 2023-11-24 13:35:54.900606
++select * from "AdminLog";
+
+# 2023-11-24 13:36:57.234083
++select * from "AdminLog" where id = 47;
+
+# 2023-11-24 13:37:20.909881
++update public."AdminLog" set status="SUCCESS" where id = 47;
+
+# 2023-11-24 13:37:33.863604
++update public."AdminLog" set status='SUCCESS' where id = 47;
+
+# 2023-11-24 13:37:48.929316
++update public."AdminLog" set status=200 where id = 47;
+
+# 2023-11-24 13:38:18.862683
++update public."AdminLog" set status=200, url='hilfe/api' where id = 47;
+
+# 2023-11-24 13:38:22.318773
++select * from "AdminLog" where id = 47;
+
+# 2023-11-24 13:39:28.313939
++update public."AdminLog" set status=200, url='hilfe/api', "entityId"='partner-sync' where id = 47;
+
+# 2023-11-24 13:39:45.471490
++update public."AdminLog" set status=200, url='hilfe/api', "entity"='partner-sync' where id = 47;
+
+# 2023-11-24 13:40:03.058013
++update public."AdminLog" set status=200, url='hilfe/api', "entity"='SndCompany' where id = 47;
+
+# 2023-11-24 13:40:21.880627
++update public."AdminLog" set status=500, url='hilfe/api', "entity"='SndCompany' where id = 47;
+
+# 2023-11-24 13:52:51.580324
++\d "AdminLog";
+
+# 2023-11-24 14:27:55.855089
++exit
+
+# 2023-11-24 14:28:04.981917
++select * from "Users";
+
+# 2023-11-24 14:31:14.570844
++\d "UserRoles";
+
+# 2023-11-24 14:34:18.653945
++select * from "SndCompanyTracking";
+
+# 2023-11-25 18:46:55.594862
++select * from "SndCompany";
+
+# 2023-11-25 18:47:14.500382
++select * from "SndCompanyTracking";
+
+# 2023-11-25 18:48:32.402378
++exit
+
+# 2023-11-25 18:50:33.742952
++select * from "SndCompanyTracking";
+
+# 2023-11-25 18:50:58.220535
++delete from public."SndCompanyTracking";
+
+# 2023-11-25 18:51:36.719393
++select * from "SndCompanyTracking";
+
+# 2023-11-25 18:52:09.635042
++exit
+
+# 2023-11-25 22:06:19.456562
++delete from public."SndCompanyTracking";
+
+# 2023-11-25 22:11:19.511470
++select * from "SndCompanyTracking";
+
+# 2023-11-25 22:11:39.132116
++select * from "SndCompany";
+
+# 2023-11-25 22:13:08.028727
++select * from "Users";
+
+# 2023-11-25 22:13:57.499619
++delete from "Users" where ID not in (2, 5, 1, 13) CASCADE ALL;
+
+# 2023-11-25 22:14:05.843716
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-25 22:14:49.203136
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:15:09.770406
++delete from "SndDriver" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:15:20.177312
++delete from "UserRole" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:15:38.766387
++delete from "UserRoles" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:15:46.473019
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:16:29.789396
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-25 22:37:08.795814
++delete from "UserRoles" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:37:13.403045
++delete from "SndDriver" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:37:17.219097
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-25 22:37:21.379961
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-25 22:57:49.369574
++\d "AdminLog";
+
+# 2023-11-25 23:11:44.140504
++\d "SndCompanyTracking";
+
+# 2023-11-25 23:45:51.859776
++select * from "SndCompanyTracking";
+
+# 2023-11-25 23:46:09.459824
++select * from information_schema;
+
+# 2023-11-25 23:46:49.172519
++select * from public.schema_migrations;
+
+# 2023-11-25 23:46:57.806597
++select * from "SndCompanyTracking";
+
+# 2023-11-25 23:55:27.715821
++delete from "SndCompanyTracking";
+
+# 2023-11-25 23:55:36.189742
++select * from "SndCompanyTracking";
+
+# 2023-11-25 23:56:44.559298
++delete from "SndCompanyTracking";
+
+# 2023-11-25 23:56:53.683559
++select * from "SndCompanyTracking";
+
+# 2023-11-26 00:41:44.382995
++\d "SndCompanyTracking";
+
+# 2023-11-26 00:43:27.635907
++select * from schema_migrations;
+
+# 2023-11-26 00:43:43.243870
++\d "SndCompanyTracking";
+
+# 2023-11-26 00:44:09.047771
++update schema_migrations set dirty=false;
+
+# 2023-11-26 00:44:12.375526
++select * from schema_migrations;
+
+# 2023-11-26 00:44:25.074193
++update schema_migrations set dirty=false;
+
+# 2023-11-26 00:44:41.117912
++\d "SndCompanyTracking";
+
+# 2023-11-26 00:48:47.218027
++select * from "SndCompanyTracking";
+
+# 2023-11-26 01:00:35.725335
++\d "Users";
+
+# 2023-11-26 01:02:57.258612
++select * from "SndCompanyTracking";
+
+# 2023-11-26 01:03:13.411594
++select saved_data from "SndCompanyTracking";
+
+# 2023-11-26 01:03:16.611658
++\x
+
+# 2023-11-26 01:03:17.517808
++select saved_data from "SndCompanyTracking";
+
+# 2023-11-26 01:25:45.076774
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:26:00.233130
++delete from "UserRoles" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:26:09.603925
++delete from "SndDriver" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:26:20.645546
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:26:33.135648
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-26 01:26:46.572848
++delete from "SndCompanyTracking";
+
+# 2023-11-26 01:28:36.521118
++select saved_data from "SndCompanyTracking";
+
+# 2023-11-26 01:28:40.323664
++\x
+
+# 2023-11-26 01:28:50.237032
++select * from "SndCompanyTracking";
+
+# 2023-11-26 01:31:53.569244
++delete from "SndCompanyTracking";
+
+# 2023-11-26 01:32:09.314611
++select * from "SndCompanyTracking";
+
+# 2023-11-26 01:32:29.179667
++delete from "SndDriver" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:32:40.120006
++delete from "SndCompany" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:32:46.686218
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-26 01:33:03.536219
++delete from "UserRoles" where "userId" not in (2,5,1,13);
+
+# 2023-11-26 01:33:16.914853
++select * from "SndCompanyTracking";
+
+# 2023-11-26 01:41:58.461812
++exit
+
+# 2023-11-28 11:36:43.429169
++\d "SndCompany";
+
+# 2023-11-28 11:47:50.189421
++\d "AdminLog";
+
+# 2023-11-28 11:48:16.494328
++\?
+
+# 2023-11-28 11:49:11.463446
++describe public.enum_AdminLog_entity;
+
+# 2023-11-28 11:49:49.616096
++\dT "enum_AdminLog_action";
+
+# 2023-11-28 11:50:04.088351
++\dT
+
+# 2023-11-28 11:50:35.416460
++enum_AdminLog_event\e
+
+# 2023-11-28 11:50:43.042553
++\d enum_AdminLog_event;
+
+# 2023-11-28 11:53:23.412229
++\dT+ "enum_AdminLog_action";
+
+# 2023-11-28 11:54:57.428307
++\dT+ "enum_AdminLog_entity";
+
+# 2023-11-28 11:55:20.174446
++\d "AdminLog";
+
+# 2023-11-28 12:09:54.574999
++\dT+ "enum_AdminLog_action";
+
+# 2023-11-28 12:34:43.829284
++\x
+
+# 2023-11-28 12:34:49.258046
++select * from "SndCompanyTracking";
+
+# 2023-11-28 12:35:24.731990
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 12:37:06.135470
++select * from "SndCompanyTracking";
+
+# 2023-11-28 12:38:25.698413
++select * from "SndCompanyTracking" where created_at > CURRENT_TIMESTAMP - 1;
+
+# 2023-11-28 12:38:36.553455
++select * from "SndCompanyTracking" where created_at > CURRENT_DATE() - 1
++;
+
+# 2023-11-28 12:38:40.154861
++select * from "SndCompanyTracking" where created_at > CURRENT_DATE -1 ;
+
+# 2023-11-28 12:39:22.261610
++select * from "SndCompanyTracking" where created_at > CURRENT_DATE() - 1
++;\e
+
+# 2023-11-28 12:39:28.777798
++select saved_data from "SndCompanyTracking" where created_at > CURRENT_DATE() - 1
++;
+
+# 2023-11-28 12:39:32.107695
++select saved_data from "SndCompanyTracking" where created_at > CURRENT_DATE() - 1
++;\e
+
+# 2023-11-28 12:39:37.193651
++select saved_data from "SndCompanyTracking" where created_at > CURRENT_DATE - 1
++;
+
+# 2023-11-28 12:39:42.315654
++\x
+
+# 2023-11-28 12:39:43.603408
++select saved_data from "SndCompanyTracking" where created_at > CURRENT_DATE - 1
++;
+
+# 2023-11-28 12:40:02.956765
++select saved_data from "SndCompanyTracking" where created_at > CURRENT_DATE - 1
++;\e
+
+# 2023-11-28 12:40:08.241265
++select *
++from "SndCompanyTracking" where created_at > CURRENT_DATE - 1
++;;
+
+# 2023-11-28 12:40:33.385091
++select * from "AdminLog";
+
+# 2023-11-28 12:41:08.154754
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 12:41:25.952294
++delete from public."SndCompanyTracking";
+
+# 2023-11-28 12:41:30.172985
++delete from public."SndCompanyTracking";\e
+
+# 2023-11-28 12:41:38.916604
++delete from public."AdminLog";
+
+# 2023-11-28 12:45:29.931026
++select * from "AdminLog";
+
+# 2023-11-28 12:45:52.310812
++select * from "SndCompanyTracking" 
++;;
+
+# 2023-11-28 12:46:28.335453
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 12:46:32.608662
++delete from public."AdminLog";
+
+# 2023-11-28 12:46:36.486374
++delete from public."SndCompanyTracking";
+
+# 2023-11-28 12:47:27.818031
++select * from "SndCompanyTracking" 
++;;
+
+# 2023-11-28 12:54:01.105997
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 12:54:03.593961
++delete from public."SndCompanyTracking";
+
+# 2023-11-28 12:54:09.768979
++delete from public."AdminLog";
+
+# 2023-11-28 12:54:20.442250
++select * from "SndCompanyTracking" 
++;;
+
+# 2023-11-28 12:54:28.764563
++select * from "AdminLog";
+
+# 2023-11-28 13:37:39.245562
++delete from public."AdminLog";\e
+
+# 2023-11-28 13:37:54.769476
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:38:02.365493
++\?
+
+# 2023-11-28 13:39:35.222743
++\ns cup delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:39:41.372792
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:39:49.335804
++\ns cup
+
+# 2023-11-28 13:40:07.409982
++\ns cup delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);\e
+
+# 2023-11-28 13:40:15.082469
++\ns cup delete from public."AdminLog"; delete from public."SndCompanyTracking"; delete from "UserRoles" where "userId" not in (2,5,1,13); delete from "SndDriver" where "userId" not in (2,5,1,13); delete from "SndCompany" where "userId" not in (2,5,1,13); delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:40:19.813776
++\ns
+
+# 2023-11-28 13:40:29.150883
++\n cup;
+
+# 2023-11-28 13:40:41.206794
++\nd cup
+
+# 2023-11-28 13:40:48.804760
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:41:03.011493
++select * from "AdminLog";
+
+# 2023-11-28 13:41:11.064857
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:44:16.676356
++select * from "AdminLog";
+
+# 2023-11-28 13:45:31.446783
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:45:50.650008
++select * from "AdminLog";
+
+# 2023-11-28 13:45:55.154637
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 13:47:01.820282
++\d "AdminLog";
+
+# 2023-11-28 14:02:33.743685
++alter table public."AdminLog" alter column "response" using to_jsonb(response)::json;
+
+# 2023-11-28 14:03:16.766069
++alter table public."AdminLog" alter column "response" type json using to_jsonb(response)::json;
+
+# 2023-11-28 14:03:26.642501
++\d "AdminLog";
+
+# 2023-11-28 14:03:36.940985
++alter table public."AdminLog" alter column "response" type json;
+
+# 2023-11-28 14:03:50.168703
++alter table public."AdminLog" alter column "response" type json using "resposne"::json;
+
+# 2023-11-28 14:03:58.196282
++alter table public."AdminLog" alter column "response" type json using resposne::json;
+
+# 2023-11-28 14:04:19.142375
++alter table public."AdminLog" alter column "response" type json using "AdminLog".resposne::json\e
+
+# 2023-11-28 14:04:35.855960
++alter table public."AdminLog" alter column "response" type json using "AdminLog"."response"::json;
+
+# 2023-11-28 14:04:45.843887
++alter table public."AdminLog" alter column "response" type json using "AdminLog"."response"::json;\e
+
+# 2023-11-28 14:05:08.483525
++alter table public."AdminLog" alter column "response" type json using to_jsonb(response)::json;
+
+# 2023-11-28 14:05:54.507621
++alter table public."AdminLog" alter column "response" type jsonb using to_jsonb(response);
+
+# 2023-11-28 14:06:10.009951
++select distinct response from "AdminLog";
+
+# 2023-11-28 14:06:56.644207
++alter table public."AdminLog" alter column "response" type jsonb using to_jsonb(response);
+
+# 2023-11-28 14:07:21.778864
++\d "AdminLog";
+
+# 2023-11-28 14:07:47.868880
++alter table "AdminLog" alter column response DROP default;
+
+# 2023-11-28 14:07:50.668699
++\d "AdminLog";
+
+# 2023-11-28 14:07:55.931863
++alter table public."AdminLog" alter column "response" type jsonb using to_jsonb(response);
+
+# 2023-11-28 14:09:06.914962
++alter table public."AdminLog" alter column "response" type jsonb using to_jsonb(response)::json;
+
+# 2023-11-28 14:09:12.333127
++\d "AdminLog";
+
+# 2023-11-28 14:09:24.723838
++alter table public."AdminLog" alter column "response" type json using to_jsonb(response)::json;
+
+# 2023-11-28 14:09:27.527521
++\d "AdminLog";
+
+# 2023-11-28 14:16:44.100976
++select distinct response from "AdminLog";
+
+# 2023-11-28 14:16:54.781429
++select distinct "response" from "AdminLog";
+
+# 2023-11-28 14:17:00.033072
++\d "AdminLog";
+
+# 2023-11-28 14:17:11.640466
++select "response" from "AdminLog";
+
+# 2023-11-28 14:17:22.929268
++\o ide
+
+# 2023-11-28 14:17:27.645698
++select "response" from "AdminLog";
+
+# 2023-11-28 14:17:47.323373
++\o
+
+# 2023-11-28 14:17:49.050582
++select "response" from "AdminLog";
+
+# 2023-11-28 14:22:46.800209
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 14:22:58.960886
++select distinct "response" from "AdminLog";
+
+# 2023-11-28 14:23:03.797065
++select * from "AdminLog";
+
+# 2023-11-28 14:37:01.551362
++\d "AdminLog";
+
+# 2023-11-28 14:42:28.441559
++select * from "AdminLog";
+
+# 2023-11-28 14:42:46.504866
++select * from "AdminLog" where action='DELETE';
+
+# 2023-11-28 15:12:23.417091
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 15:14:25.411800
++select * from "AdminLog";
+
+# 2023-11-28 15:18:00.775525
++select * from "SndCompanyTracking";
+
+# 2023-11-28 15:18:09.467797
++select * from "AdminLog";
+
+# 2023-11-28 17:58:16.127003
++pwd
++;
+
+# 2023-11-28 17:59:07.746615
++\d "AdminLog";
+
+# 2023-11-28 18:00:30.809910
++exit
+
+# 2023-11-28 18:01:39.222514
++\d "AdminLog";
+
+# 2023-11-28 18:36:22.036066
++select * from "AdminLog";
+
+# 2023-11-28 18:39:13.226018
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 18:48:24.808206
++select * from "AdminLog";
+
+# 2023-11-28 18:48:47.787581
++select * from "SndCompanyTracking";
+
+# 2023-11-28 18:56:21.596445
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 18:56:28.794328
++select * from "AdminLog";
+
+# 2023-11-28 18:57:28.489028
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-28 19:03:22.369890
++exit
+
+# 2023-11-29 09:22:34.527540
++\d "EntitySettings";
+
+# 2023-11-29 09:22:46.936794
++select * from "EntitySettings";
+
+# 2023-11-29 09:22:59.421162
++select * from "Settings";
+
+# 2023-11-29 09:26:11.344892
++select * from "SndCompany";
+
+# 2023-11-29 09:26:17.433742
++\x
+
+# 2023-11-29 09:26:18.483056
++select * from "SndCompany";
+
+# 2023-11-29 09:28:31.275823
++select * from "Settings";
+
+# 2023-11-29 09:28:36.241165
++\x
+
+# 2023-11-29 09:28:37.362087
++select * from "Settings";
+
+# 2023-11-29 09:29:18.535105
++select * from "EntitySettings";
+
+# 2023-11-29 09:47:06.376478
++\d "EntitySettings";
+
+# 2023-11-29 09:47:11.841260
++\d "Settings";
+
+# 2023-11-29 09:47:41.284006
++select * from "EntitySettings";
+
+# 2023-11-29 09:47:43.304793
++select * from "Settings";
+
+# 2023-11-29 10:36:08.156188
++exit
+
+# 2023-11-29 11:03:22.468939
++select * from "Settings";
+
+# 2023-11-29 11:03:24.422319
++select * from "EntitySettings";
+
+# 2023-11-29 11:05:27.075145
++\d "Settings";
+
+# 2023-11-29 11:23:37.683450
++select * from "SndCompany" where id = 390;
+
+# 2023-11-29 11:23:42.003239
++\x
+
+# 2023-11-29 11:23:43.029811
++select * from "SndCompany" where id = 390;
+
+# 2023-11-29 11:23:57.844217
++select * from "SndDriver" where id = 390;
+
+# 2023-11-29 11:33:48.839032
++select * from "SndCompany" where "contactManagerId" = '000990002';
+
+# 2023-11-29 11:33:57.608335
++select * from "SndCompany";
+
+# 2023-11-29 11:34:33.334081
++select * from "SndCompany" where "contactManagerId" = '000990004';
+
+# 2023-11-29 11:36:58.752614
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-29 11:38:33.748944
++select * from "SndDriver" where "publicPhone" = '+36303901450';
+
+# 2023-11-29 11:38:45.891077
++select * from "Settings";
+
+# 2023-11-29 11:39:01.062227
++select * from "EntitySettings" where "entityId" = 396;
+
+# 2023-11-29 11:39:06.092727
++\x
+
+# 2023-11-29 11:39:07.402385
++select * from "EntitySettings" where "entityId" = 396;
+
+# 2023-11-29 11:39:13.775395
++select * from "EntitySettings" where "entityId" = 396;\e
+
+# 2023-11-29 11:39:43.821867
++select * from "Settings" where is in (select "settingsId" from "EntitySettings" where "entityId" = 396);
+
+# 2023-11-29 11:39:47.884373
++select * from "Settings" where is in (select "settingsId" from "EntitySettings" where "entityId" = 396);\e
+
+# 2023-11-29 11:39:53.243065
++select * from "Settings" where is in (select "settingsId" from "EntitySettings" where "entityId" = 396);
+
+# 2023-11-29 11:40:00.561554
++select * from "Settings" where is in (select "settingsId" from "EntitySettings" where "entityId" = 396);\e
+
+# 2023-11-29 11:40:06.082153
++select * from "Settings" where id in (select "settingsId" from "EntitySettings" where "entityId" = 396);
+
+# 2023-11-29 11:41:10.143126
++select * from "SndDriver" where "publicPhone" = '+36303901450';\e
+
+# 2023-11-29 11:41:27.259014
++select * from "SndDriver" where "publicPhone" = '+49150615293631';
+
+# 2023-11-29 11:41:54.107141
++select * from "Settings" where id in (select "settingsId" from "EntitySettings" where "entityId" = 391);
+
+# 2023-11-29 11:43:01.179490
++select * from "SndDriver" where "publicPhone" = '+49150615293631';\e
+
+# 2023-11-29 11:43:15.883431
++select * from "SndDriver" where "publicPhone" = '+4915124275038';
+
+# 2023-11-29 11:43:35.879788
++select * from "Settings" where id in (select "settingsId" from "EntitySettings" where "entityId" = 397);
+
+# 2023-11-29 11:46:14.838696
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-29 11:46:28.430406
++select * from "Users";
+
+# 2023-11-29 11:47:31.945730
++delete from "Users" where ID in (13);
+
+# 2023-11-29 11:54:28.514959
++exit
+
+# 2023-11-29 12:10:49.337951
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-29 12:11:51.527367
++select * from "SndCompanyTracking";
+
+# 2023-11-29 12:17:36.998719
++select * from "Users";
+
+# 2023-11-29 12:21:46.453765
++SELECT * FROM pg_stat_activity;
+
+# 2023-11-29 12:22:33.177366
++SELECT count(*) FROM pg_stat_activity;
+
+# 2023-11-29 12:41:10.228583
++select * from "AdminLog" order by "createdAt" desc;
+
+# 2023-11-29 12:41:30.272736
++SELECT count(*) FROM pg_stat_activity;
+
+# 2023-11-29 13:33:42.528435
++select * from "Users";
+
+# 2023-11-29 13:35:32.753323
++exit
+
+# 2023-11-29 13:38:53.169259
++select * from "Users";
+
+# 2023-11-29 13:39:08.222655
++select * from "UserRoles";
+
+# 2023-11-29 13:43:42.200781
++exit
+
+# 2023-11-29 14:33:05.320427
++select * from "Users";
+
+# 2023-11-29 14:33:11.599345
++select * from "AdminLog";
+
+# 2023-11-29 14:58:39.335035
++\dl
+
+# 2023-11-29 14:58:41.226354
++\d
+
+# 2023-11-29 14:58:53.132917
++exit
+
+# 2023-11-29 15:00:06.938352
++exit
+
+# 2023-11-29 15:00:21.353779
++\d
+
+# 2023-11-29 15:00:34.816001
++select * from "SndCompanyTracking";
+
+# 2023-11-29 15:01:12.511499
++select * from schema_migrations;
+
+# 2023-11-29 15:01:22.339274
++update schema_migrations set dirty=true;
+
+# 2023-11-29 15:02:05.946539
++update schema_migrations set dirty=false;
+
+# 2023-11-29 15:02:17.508026
++select * from schema_migrations;
+
+# 2023-11-29 15:03:34.930797
++update schema_migrations set dirty=false;
+
+# 2023-11-29 15:03:41.956550
++select * from schema_migrations;
+
+# 2023-11-29 15:09:42.631626
++exit
+
+# 2023-11-29 15:11:21.245910
++\dl
+
+# 2023-11-29 15:11:25.171693
++\d
+
+# 2023-11-29 15:21:04.565921
++select * from public."AdminLog";
+
+# 2023-11-29 15:21:35.065840
++\x
+
+# 2023-11-29 15:21:35.924035
++select * from public."AdminLog";
+
+# 2023-11-29 15:25:27.814352
++exit
+
+# 2023-11-29 15:31:31.963432
++select * from public."Users";
+
+# 2023-11-29 15:31:51.329167
++select * from public."SndCompanyTracking";
+
+# 2023-11-29 15:35:23.755245
++\x
+
+# 2023-11-29 15:35:38.515461
++select * from public."SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:36:13.813066
++exit
+
+# 2023-11-29 15:36:58.046251
++select * from public."SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:37:02.401735
++\x
+
+# 2023-11-29 15:37:04.301072
++select * from public."SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:38:28.347207
++select saved_data from "SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:38:32.526689
++\x
+
+# 2023-11-29 15:38:33.285487
++select saved_data from "SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:38:51.992229
++select incoming_data from "SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:39:08.073239
++\o ide
+
+# 2023-11-29 15:39:09.354722
++select incoming_data from "SndCompanyTracking" where event_status = 'ERROR';
+
+# 2023-11-29 15:39:11.462304
++exit
+
+# 2023-11-29 16:05:36.587230
++select * from public."SndCompanyTracking";
+
+# 2023-11-29 16:06:10.078312
++\?
+
+# 2023-11-29 16:06:54.674749
++select * from public."AdminLog";
+
+# 2023-11-29 17:23:36.053873
++\d "AdminLog";
+
+# 2023-11-29 17:48:34.321835
++exit
+
+# 2023-11-30 11:09:18.381019
++\d "AdminLog";
+
+# 2023-11-30 11:13:34.033894
++select * from public."SndCompany" where id = 393
++;
+
+# 2023-11-30 11:19:57.838543
++select * from public."SndCompanyTracking";
+
+# 2023-11-30 11:20:59.651380
++select event_status, event_name, event_info from "SndCompanyTracking" where event_status='ERROR';
+
+# 2023-11-30 11:21:22.515158
++select event_status, event_name, event_info, incoming_data from "SndCompanyTracking" where event_status='ERROR';
+
+# 2023-11-30 11:37:59.027731
++exit
+
+# 2023-11-30 11:42:20.740325
++exit
+
+# 2023-11-30 13:05:04.512125
++select * from "AdminLog" where id = 25;
+
+# 2023-11-30 13:06:35.142426
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);
+
+# 2023-11-30 13:06:48.588866
++select * from "Users";
+
+# 2023-11-30 13:06:54.652573
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13);
++delete from "SndDriver" where "userId" not in (2,5,1,13);
++delete from "SndCompany" where "userId" not in (2,5,1,13);
++delete from "Users" where ID not in (2, 5, 1, 13);\e
+
+# 2023-11-30 13:07:21.906001
++delete from public."AdminLog";
++delete from public."SndCompanyTracking";
++delete from "UserRoles" where "userId" not in (2,5,1,13,4);
++delete from "SndDriver" where "userId" not in (2,5,1,13,4);
++delete from "SndCompany" where "userId" not in (2,5,1,13,4);
++delete from "Users" where ID not in (2, 5, 1, 13,4);
+
+# 2023-12-14 11:12:49.044968
++\d finnoscore.institution_definition
+
+# 2023-12-15 21:03:16.625874
++/dl
++;
+
+# 2023-12-15 21:03:21.626660
++\dl;
+
+# 2023-12-15 21:03:23.430688
++\d
+
+# 2023-12-15 21:09:26.768694
++exit
+
+# 2023-12-15 22:41:50.894433
++\d
+
+# 2023-12-15 22:42:04.383434
++\dl
+
+# 2023-12-15 22:42:26.014248
++\dn
+
+# 2023-12-15 22:42:31.931282
++\d finnoscore;
+
+# 2023-12-15 22:42:54.073538
++\dp;
+
+# 2023-12-15 22:43:09.501848
++\dt;
+
+# 2023-12-15 22:43:13.187526
++\dt
+
+# 2023-12-15 22:43:20.683193
++\dt finnoscore.*;
+
+# 2023-12-15 22:48:37.178047
++\dt
+
+# 2023-12-15 22:48:52.367673
++drop table finnoscoreroles;
+
+# 2023-12-15 22:48:55.121252
++\dt
+
+# 2023-12-15 22:50:03.459539
++\dt finnoscore.*;
+
+# 2023-12-15 22:50:18.348635
++\d finnoscore.roles;
+
+# 2023-12-15 22:50:38.627031
++\refresh
+
+# 2023-12-15 22:50:47.445979
++drop table finnoscore.roles;
+
+# 2023-12-15 22:52:20.548656
++\refresh
+
+# 2023-12-15 22:52:25.746428
++\dt finnoscore.*;
+
+# 2023-12-15 22:52:33.777652
++\d finnoscore.users;
+
+# 2023-12-15 22:52:59.794865
++exit
+
+# 2023-12-15 22:55:54.330101
++\d finnoscore.users;
+
+# 2023-12-15 22:56:07.718951
++\dn;
+
+# 2023-12-15 22:56:11.989009
++exit
+
+# 2023-12-16 00:07:42.464205
++select * from finnoscore.users;
+
+# 2023-12-16 00:07:48.821683
++\dl
+
+# 2023-12-16 00:07:50.498197
++\dl;
+
+# 2023-12-16 00:08:10.129257
++\dt finnoscore;
+
+# 2023-12-16 00:08:14.234033
++\dt finnoscore.*;
+
+# 2023-12-16 00:08:29.164728
++select *from finnoscore.roles;
+
+# 2023-12-16 00:16:34.469325
++\dt finnoscore.*;
+
+# 2023-12-16 00:17:43.659933
++select *from finnoscore.roles;
+
+# 2023-12-16 00:17:47.218588
++select *from finnoscore.users;
+
+# 2023-12-16 00:19:02.814231
++exit
+
+# 2023-12-16 00:19:37.602841
++\dt finnoscore.*;
+
+# 2023-12-16 00:19:44.271686
++select *from finnoscore.roles;
+
+# 2023-12-16 00:19:53.316617
++select *from finnoscore.users;
+
+# 2023-12-16 00:26:08.355118
++select *from finnoscore.roles;
+
+# 2023-12-16 00:26:15.733145
++select *from finnoscore.users_roles;
+
+# 2023-12-16 00:26:18.619167
++select *from finnoscore.users;
+
+# 2023-12-16 00:30:40.956818
++select *from finnoscore.users_roles;
+
+# 2023-12-16 00:31:22.213643
++\dt finnoscore.*;
+
+# 2023-12-16 00:33:16.287784
++select *from finnoscore.users_roles;
+
+# 2023-12-16 00:33:33.205898
++select * from finnoscore.users;
+
+# 2023-12-16 00:33:56.061872
++delete from finnoscore.users where first_name is null;
+
+# 2023-12-16 00:34:00.849063
++select * from finnoscore.users;
+
+# 2023-12-16 00:34:10.347178
++delete from finnoscore.users where first_name ='';
+
+# 2023-12-16 00:34:13.619073
++select * from finnoscore.users;
+
+# 2023-12-16 00:35:47.255622
++select * from finnoscore.roles;
+
+# 2023-12-16 00:38:34.599474
++select * from finnoscore.users;
+
+# 2023-12-16 00:38:44.134887
++select *from finnoscore.users_roles;
+
+# 2023-12-16 01:25:12.839925
++select user_id from finnoscore.users_roles;
+
+# 2023-12-16 01:25:20.137803
++select user_id from finnoscore.users_roles;\e
+
+# 2023-12-16 01:25:24.750950
++select USER_ID from finnoscore.users_roles;
+
+# 2023-12-17 00:56:15.662007
++\dt finnoscore.*;
+
+# 2023-12-17 01:01:02.397532
++exit

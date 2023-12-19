@@ -1,0 +1,21 @@
+new_tab spring-java-nvim
+cd ~/Documents/projects/spring-boot/getting-started
+launch nvim
+launch bash -c "java-env.sh" --location=hsplit --hold
+
+new_tab onboarding
+cd ~/Documents/projects/radicant/repos/onboarding-eb
+launch bash -i -c "jabba use openjdk@1.17.0 && nvim"
+launch --location=hsplit bash -i -c "jabba use openjdk@1.17.0"
+
+new_tab mqlistener
+cd ~/Documents/projects/radicant/repos/mqlistener-il
+launch --env JAVA_HOME=/home/devandris/.jabba/jdk/openjdk@1.17.0 nvim
+launch --location=hsplit bash
+
+new_tab profile-eb
+cd ~/Documents/projects/radicant/repos/profile-eb
+launch --env JAVA_HOME=/home/devandris/.jabba/jdk/openjdk@1.17.0 --env PATH=$PATH:$JAVA_HOME/bin nvim
+launch --location=hsplit
+
+

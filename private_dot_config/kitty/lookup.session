@@ -1,0 +1,3 @@
+new_tab init
+launch bash -i -c "/home/devandris/.config/kitty/project-lookup.sh"
+

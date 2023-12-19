@@ -1,0 +1,92 @@
+allow_remote_control yes
+
+tab_fade 1
+font_family      SouceCodePro Nerd Font
+# font_family JetBrainsMono Nerd Font
+font_size 18.0
+
+# env JAVA_HOME=/home/devandris/.jabba/jdk/openjdk@1.17.0
+
+clear_all_shortcuts yes
+# map ctrl+shift+escape kitty_shell window
+map ctrl+shift+f1 show_kitty_doc overview
+
+map ctrl+shift+F5 load_config_file
+map ctrl+shift+F2 edit_config_file
+
+# Scrolling
+map ctrl+shift+k scroll_line_up
+map ctrl+shift+j scroll_line_down
+
+map ctrl+shift+] scroll_page_up
+map ctrl+shift+[ scroll_page_down
+
+map ctrl+shift+h show_scrollback
+map ctrl+shift+p scroll_to_prompt -1
+map ctrl+shift+n scroll_to_prompt 1
+
+# default scrollback pager
+scrollback_pager ~/.config/kitty/nvim-pager.sh 'INPUT_LINE_NUMBER' 'CURSOR_LINE' 'CURSOR_COLUMN'
+
+map ctrl+a>; launch --stdin-source=@last_cmd_output --type=overlay ~/.config/kitty/nvim-pager.sh
+map ctrl+a>, launch --stdin-source=@last_visited_cmd_output --type=overlay ~/.config/kitty/nvim-pager.sh
+map ctrl+a>. launch --stdin-source=@selection --type=overlay nvim
+
+map ctrl+shift+u open_url_with_hints
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+map ctrl+shift+s paste_from_selection
+
+map ctrl+a>y>x copy_to_buffer x
+map ctrl+a>shift+p>x paste_from_buffer x
+
+# Customer keymaps
+enabled_layouts splits:split_axis=horizontal, stack
+
+# toggle maximizing window
+map ctrl+a>s toggle_layout stack
+map ctrl+a>- launch --location=hsplit --cwd=current --copy-env
+map ctrl+a>| launch --location=vsplit --cwd=current --copy-env
+
+map ctrl+a>c close_window
+map ctrl+a>shift+c close_other_windows_in_tab
+
+# Jump to window 1-5 only
+map ctrl+a>w>1 first_window
+map ctrl+a>w>2 second_window
+map ctrl+a>w>3 third_window
+map ctrl+a>w>4 fourth_window
+map ctrl+a>w>5 fith_window
+
+# Navigating windows
+map ctrl+a>w>s focus_visible_window
+map ctrl+a>j neighboring_window bottom
+map ctrl+a>k neighboring_window top
+map ctrl+a>h neighboring_window left
+map ctrl+a>l neighboring_window right
+
+
+# Moving windowsr
+map ctrl+a>shift+h move_window left
+map ctrl+a>shift+j move_window top
+map ctrl+a>shift+k move_window bottom
+map ctrl+a>shift+l move_window right
+#
+# Resizing windows
+map ctrl+up resize_window taller
+map ctrl+down resize_window shorter
+map ctrl+left resize_window narrower
+map ctrl+right resize_window wider
+
+
+map ctrl+a>t>n new_tab
+map ctrl+a>t>c close_tab
+map ctrl+a>t>s select_tab
+map ctrl+a>t>shift+c close_other_tabs_in_os_window
+map ctrl+a>t>r set_tab_title
+map ctrl+a>n next_tab
+map ctrl+a>p previous_tab
+# BEGIN_KITTY_THEME
+# Rosé Pine Moon
+include current-theme.conf
+# END_KITTY_THEME
