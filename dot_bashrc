@@ -89,11 +89,12 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+export NVIM_VERSION="v9.1"
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias nvim='$HOME/tooling/neovim/nvim-linux64-0.9/bin/nvim'
+alias nvim='$HOME/tooling/neovim/$NVIM_VERSION/nvim-linux64/bin/nvim'
 alias bat='batcat'
 alias md='mdcat -p '
 alias python='python3'
@@ -131,6 +132,8 @@ export NVM_DIR="$HOME/.nvm"
 
 export CHEZMOI_INSTALL="$HOME/tooling/chezmoi"
 [ -s "$CHEZMOI_INSTALL/completions" ] && \. "$CHEZMOI_INSTALL/completions/chezmoi-completion.bash"  # This loads nvm bash_completion
+export FLY_HOME="$HOME/.fly"
+[ -s "$FLY_HOME" ] && \. "$FLY_HOME/completion.bash"  # This loads nvm bash_completion
 
 
 

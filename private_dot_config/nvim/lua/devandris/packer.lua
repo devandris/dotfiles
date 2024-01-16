@@ -86,5 +86,7 @@ return require('packer').startup(function(use)
         'glacambre/firenvim',
         run = function() vim.fn['firenvim#install'](0) end
     }
+    -- use "rest-nvim/rest.nvim"
+    use "BlackLight/nvim-http"
 end
 )
