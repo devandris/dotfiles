@@ -1,3 +1,6 @@
+require("neodev").setup({
+  -- add any options here, or leave empty to use the default settings
+})
 local lsp = require('lsp-zero').preset({
     {
         float_border = 'rounded',
@@ -21,11 +24,11 @@ local lsp = require('lsp-zero').preset({
 
 lsp.on_attach(function(client, bufnr)
     local opts = { buffer = bufnr, remap = false }
-    vim.keymap.set("n", "<leader>vd", ":lua vim.diagnostic.open_float()<CR>", opts)
-    vim.keymap.set("n", "<leader>gd", ":lua vim.lsp.buf.definition()<CR>", opts)
-    vim.keymap.set("n", "<leader>gr", ":lua vim.lsp.buf.references()<CR>", opts)
-    vim.keymap.set("n", "<leader>gt", ":lua vim.lsp.buf.type_definition()<CR>", opts)
-    vim.keymap.set("n", "<leader>gi", ":lua vim.lsp.buf.implementation()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>vd", ":lua vim.diagnostic.open_float()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gd", ":lua vim.lsp.buf.definition()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gr", ":lua vim.lsp.buf.references()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gt", ":lua vim.lsp.buf.type_definition()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gi", ":lua vim.lsp.buf.implementation()<CR>", opts)
     vim.keymap.set('n', 'K', ":lua vim.lsp.buf.hover()<CR>", opts)
     vim.keymap.set('n', '<C-h>', ":lua vim.lsp.buf.signature_help()<CR>", opts)
     vim.keymap.set("n", "<leader>ws", ":lua vim.lsp.buf.workspace_symbol()<CR>", opts)
@@ -44,7 +47,7 @@ end)
 
 
 lsp.nvim_workspace(
-    { library = vim.api.nvim_get_runtime_file('', true) }
+    { library = vim.api.nvim_get_runtime_file('/home/devandris/.local/share/nvim/lazy/**/.*', true) }
 )
 
 lsp.skip_server_setup({ 'jdtls' })
@@ -57,11 +60,11 @@ local util = require "lspconfig/util"
 
 local on_attach = function(client, bufnr)
     local opts = { buffer = bufnr, remap = false }
-    vim.keymap.set("n", "<leader>vd", ":lua vim.diagnostic.open_float()<CR>", opts)
-    vim.keymap.set("n", "<leader>gd", ":lua vim.lsp.buf.definition()<CR>", opts)
-    vim.keymap.set("n", "<leader>gr", ":lua vim.lsp.buf.references()<CR>", opts)
-    vim.keymap.set("n", "<leader>gt", ":lua vim.lsp.buf.type_definition()<CR>", opts)
-    vim.keymap.set("n", "<leader>gi", ":lua vim.lsp.buf.implementation()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>vd", ":lua vim.diagnostic.open_float()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gd", ":lua vim.lsp.buf.definition()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gr", ":lua vim.lsp.buf.references()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gt", ":lua vim.lsp.buf.type_definition()<CR>", opts)
+    vim.keymap.set("n", "<leader><leader>gi", ":lua vim.lsp.buf.implementation()<CR>", opts)
     vim.keymap.set('n', 'K', ":lua vim.lsp.buf.hover()<CR>", opts)
     vim.keymap.set('n', '<C-h>', ":lua vim.lsp.buf.signature_help()<CR>", opts)
     vim.keymap.set("n", "<leader>ws", ":lua vim.lsp.buf.workspace_symbol()<CR>", opts)

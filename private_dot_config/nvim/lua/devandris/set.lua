@@ -33,3 +33,5 @@ vim.g.netrw_localrmdir = 'rm -r'
 -- folds
 -- vim.opt.foldcolumn     = "4"
 vim.g.netrw_keepdir = 1
+
+vim.opt.diffopt.linematch = 50
