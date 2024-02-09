@@ -12,28 +12,28 @@ table.insert(vimgrep_arguments, "!.git/*")
 
 
 telescope.setup({
-  defaults = {
-    layout_strategy = 'vertical',
-    layout_config = {
-      height = 0.9,
-      preview_cutoff = 40,
-      prompt_position = "bottom",
-      width = 0.8
+    defaults = {
+        layout_strategy = 'horizontal',
+        layout_config = {
+            height = 0.9,
+            preview_cutoff = 40,
+            prompt_position = "top",
+            width = 0.8
+        },
+        vimgrep_arguments = vimgrep_arguments,
+        mappings = {
+            i = {
+                ["<C-j>"] = require('telescope.actions').cycle_history_next,
+                ["<C-k>"] = require('telescope.actions').cycle_history_prev,
+            },
+        },
     },
-    vimgrep_arguments = vimgrep_arguments,
-    mappings = {
-      i = {
-        ["<C-j>"] = require('telescope.actions').cycle_history_next,
-        ["<C-k>"] = require('telescope.actions').cycle_history_prev,
-      },
+    pickers = {
+        find_files = {
+            -- `hidden = true` will still show the inside of `.git/` as it's not `.gitignore`d.
+            find_command = { "fdfind", "--hidden", "--no-ignore-vcs" },
+        },
     },
-  },
-  pickers = {
-    find_files = {
-      -- `hidden = true` will still show the inside of `.git/` as it's not `.gitignore`d.
-      find_command = { "fdfind", "--hidden", "--no-ignore-vcs" },
-    },
-  },
 })
 
 local builtin = require('telescope.builtin')
@@ -54,3 +54,4 @@ vim.keymap.set("n", "<leader>gr", builtin.lsp_references, {})
 vim.keymap.set("n", "<leader>gi", builtin.lsp_implementations, {})
 vim.keymap.set("n", "<leader>gt", builtin.lsp_type_definitions, {})
 vim.keymap.set("n", "<leader>gd", builtin.lsp_definitions, {})
+vim.keymap.set("n", "<leader>fds", builtin.lsp_document_symbols, {})

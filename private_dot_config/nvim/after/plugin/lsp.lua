@@ -1,5 +1,5 @@
 require("neodev").setup({
-  -- add any options here, or leave empty to use the default settings
+    -- add any options here, or leave empty to use the default settings
 })
 local lsp = require('lsp-zero').preset({
     {
@@ -12,12 +12,6 @@ local lsp = require('lsp-zero').preset({
             omit = {},
         },
         manage_nvim_cmp = {
-            set_sources = 'recommended',
-            set_basic_mappings = true,
-            set_extra_mappings = false,
-            use_luasnip = true,
-            set_format = true,
-            documentation_window = true,
         },
     }
 })
@@ -54,8 +48,8 @@ lsp.skip_server_setup({ 'jdtls' })
 lsp.skip_server_setup({ 'gopls' })
 lsp.setup()
 
-local lspconfig = require "lspconfig"
-local util = require "lspconfig/util"
+-- local lspconfig = require "lspconfig"
+-- local util = require "lspconfig/util"
 -- lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
 local on_attach = function(client, bufnr)
@@ -73,7 +67,7 @@ local on_attach = function(client, bufnr)
     vim.keymap.set('n', '<leader>wl', ":lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
     vim.keymap.set('n', '<leader>rn', ":lua vim.lsp.buf.rename()<CR>", opts)
     vim.keymap.set('n', '<leader>ac', ":lua vim.lsp.buf.code_action()<CR>", opts)
-    vim.keymap.set('v', '<leader>ac', function() Go_ac() end, opts)
+    -- vim.keymap.set('v', '<leader>ac', function() Go_ac() end, opts)
     vim.keymap.set('n', '<leader>fs', ":lua vim.lsp.buf.format({async=true})<CR>", opts)
     vim.keymap.set('n', '<leader>dQ', ":lua vim.diagnostic.setqflist()<CR>", opts)
     vim.keymap.set('n', '<leader>dq', ":lua vim.diagnostic.setloclist()<CR>", opts)
@@ -82,40 +76,111 @@ local on_attach = function(client, bufnr)
 end
 
 -- { "quickfix", "refactor.extract", "refactor.rewrite", "source.fixAll", "source.organizeImports" }
-Go_ac = function()
-    local params = vim.lsp.util.make_range_params()
-    params.context = { only = { "refactor", "refactor.extract", "quickfix", "refactor.rewrite", "source.fixAll" } }
-    -- buf_request_sync defaults to a 1000ms timeout. Depending on your
-    -- machine and codebase, you may want longer. Add an additional
-    -- argument after params if you find that you have to write the file
-    -- twice for changes to be saved.
-    -- E.g., vim.lsp.buf_request_sync(0, "textDocument/codeAction", params, 3000)
-    -- local result = vim.lsp.buf_request_sync(0, "textDocument/codeAction", params, 3000)
-    vim.lsp.buf.code_action({ context = params })
-    -- vim.lsp.buf.format({async = false})
-end
+-- Go_ac = function()
+--     local params = vim.lsp.util.make_range_params()
+--     params.context = { only = { "refactor", "refactor.extract", "quickfix", "refactor.rewrite", "source.fixAll" } }
+--     -- buf_request_sync defaults to a 1000ms timeout. Depending on your
+--     -- machine and codebase, you may want longer. Add an additional
+--     -- argument after params if you find that you have to write the file
+--     -- twice for changes to be saved.
+--     -- E.g., vim.lsp.buf_request_sync(0, "textDocument/codeAction", params, 3000)
+--     -- local result = vim.lsp.buf_request_sync(0, "textDocument/codeAction", params, 3000)
+--     vim.lsp.buf.code_action({ context = params })
+--     -- vim.lsp.buf.format({async = false})
+-- end
 
-lspconfig.gopls.setup {
-    cmd = { '/home/devandris/.local/share/nvim/mason/bin/gopls', 'serve' },
-    on_attach = on_attach,
-    -- capabilities = vim.lsp.protocol.make_client_capabilities(),
+-- require('go').setup{
+--   lsp_cfg = false
+--   -- other setups...
+-- }
+-- local cfg = require'go.lsp'.config() -- config() return the go.nvim gopls setup
 
-    filetypes = { "go", "gomod" },
-    root_dir = util.root_pattern("go.work", "go.mod", ".git"),
-    settings = {
-        gopls = {
-            analyses = {
-                unusedparams = false,
-                unusedvariable = true,
-                shadow = true,
-                assign = true,
-                unreachable = true,
-            },
-            staticcheck = true,
-            gofumpt = false,
-        },
-    },
-}
+-- require('lspconfig').gopls.setup(
+--     {
+--         cmd = { '/home/devandris/.local/share/nvim/mason/bin/gopls', 'serve' },
+--         on_attach = on_attach,
+--
+--         capabilities = {
+--             textDocument = {
+--                 completion = {
+--                     completionItem = {
+--                         commitCharactersSupport = true,
+--                         deprecatedSupport = true,
+--                         documentationFormat = { 'markdown', 'plaintext' },
+--                         preselectSupport = true,
+--                         insertReplaceSupport = true,
+--                         labelDetailsSupport = true,
+--                         snippetSupport = true,
+--                         resolveSupport = {
+--                             properties = {
+--                                 'documentation',
+--                                 'details',
+--                                 'additionalTextEdits',
+--                             },
+--                         },
+--                     },
+--                     contextSupport = true,
+--                     dynamicRegistration = true,
+--                 },
+--             },
+--         },
+--         filetypes = { 'go', 'gomod', 'gosum', 'gotmpl', 'gohtmltmpl', 'gotexttmpl' },
+--         message_level = vim.lsp.protocol.MessageType.ERROR,
+--         -- flags = { allow_incremental_sync = true, debounce_text_changes = 500 },
+--         settings = {
+--             gopls = {
+--                 -- more settings: https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+--                 -- not supported
+--                 -- semanticTokens = true,
+--                 analyses = {
+--                     unreachable = true,
+--                     nilness = true,
+--                     unusedparams = true,
+--                     useany = true,
+--                     unusedwrite = true,
+--                     ST1003 = true,
+--                     ST1016 = true,
+--                     undeclaredname = true,
+--                     fillreturns = true,
+--                     nonewvars = true,
+--                     fieldalignment = false,
+--                     shadow = true,
+--                 },
+--                 codelenses = {
+--                     generate = true,   -- show the `go generate` lens.
+--                     gc_details = true, -- Show a code lens toggling the display of gc's choices.
+--                     test = true,
+--                     tidy = true,
+--                     vendor = true,
+--                     regenerate_cgo = true,
+--                     upgrade_dependency = true,
+--                 },
+--                 hints = {
+--                     assignVariableTypes = true,
+--                     compositeLiteralFields = true,
+--                     compositeLiteralTypes = true,
+--                     constantValues = true,
+--                     functionTypeParameters = true,
+--                     parameterNames = true,
+--                     rangeVariableTypes = true,
+--                 },
+--                 usePlaceholders = true,
+--                 completeUnimported = true,
+--                 staticcheck = true,
+--                 matcher = 'Fuzzy',
+--                 diagnosticsDelay = '500ms',
+--                 symbolMatcher = 'fuzzy',
+--                 gofumpt = true, -- true|false, -- turn on for new repos, gofmpt is good but also create code turmoils
+--                 buildFlags = { '-tags', 'integration' },
+--             },
+--         },
+--         -- NOTE: it is important to add handler to formatting handlers
+--         -- the async formatter will call these handlers when gopls responed
+--         -- without these handlers, the file will not be saved
+--     }
+-- -- capabilities = vim.lsp.protocol.make_client_capabilities(),
+--
+-- )
 
 local cmp = require('cmp')
 
@@ -143,23 +208,22 @@ cmp.setup({
         { name = "path" },
     },
     mapping = cmp_mappings,
-    formatting = {
-        format = function(entry, item)
-            local menu_name = source_mapping[entry.source.name] or entry.source.name
-            item.menu = string.format('%s', menu_name)
-            return item
-        end,
-    },
+    -- formatting = {
+    --     format = function(entry, item)
+    --         local menu_name = source_mapping[entry.source.name] or entry.source.name
+    --         item.menu = string.format('%s', menu_name)
+    --         return item
+    --     end,
+    -- },
 })
 
-require('lint').linters_by_ft = {
-    yaml = { 'actionlint', },
-}
+-- require('lint').linters_by_ft = {
+--     yaml = { 'actionlint', },
+-- }
 
 -- vim.api.nvim_create_autocmd({ "BufWritePost" }, {
+--     pattern = "*.go",
 --     callback = function()
---         require("lint").try_lint('actionlint')
---         -- vim.lsp.buf.format({ async = true })
---         -- vim.lsp.buf.code_action({ source = { organizeImports = true } })
+--         vim.lsp.buf.format({ async = true })
 --     end,
 -- })

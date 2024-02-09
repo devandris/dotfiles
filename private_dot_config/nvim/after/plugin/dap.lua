@@ -18,7 +18,7 @@ vim.keymap.set('n', '<leader>dv', function() require('dapui').open() end)
 vim.keymap.set('n', '<leader>dc', function() require('dapui').close() end)
 
 require('dapui').setup()
-require('nvim-dap-virtual-text').setup()
+-- require('nvim-dap-virtual-text').setup()
 require('dap-go').setup()
 
 local dap, dapui = require("dap"), require("dapui")
